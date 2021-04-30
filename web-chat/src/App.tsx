@@ -145,7 +145,7 @@ function copyAppendReplace<T>(
   setter(copy.concat(newValues));
 }
 
-function copyMergeUniqueReplace(
+export function copyMergeUniqueReplace(
   newValues: ChatMessage[],
   currentValues: ChatMessage[],
   setter: (val: ChatMessage[]) => void
