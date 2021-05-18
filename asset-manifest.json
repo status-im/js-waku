@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/js-waku/static/css/main.857057f9.chunk.css",
-    "main.js": "/js-waku/static/js/main.6d93aa9d.chunk.js",
-    "main.js.map": "/js-waku/static/js/main.6d93aa9d.chunk.js.map",
+    "main.js": "/js-waku/static/js/main.8709c2c2.chunk.js",
+    "main.js.map": "/js-waku/static/js/main.8709c2c2.chunk.js.map",
     "runtime-main.js": "/js-waku/static/js/runtime-main.4bf0c119.js",
     "runtime-main.js.map": "/js-waku/static/js/runtime-main.4bf0c119.js.map",
-    "static/js/2.41e25953.chunk.js": "/js-waku/static/js/2.41e25953.chunk.js",
-    "static/js/2.41e25953.chunk.js.map": "/js-waku/static/js/2.41e25953.chunk.js.map",
+    "static/js/2.bc96e22b.chunk.js": "/js-waku/static/js/2.bc96e22b.chunk.js",
+    "static/js/2.bc96e22b.chunk.js.map": "/js-waku/static/js/2.bc96e22b.chunk.js.map",
     "index.html": "/js-waku/index.html",
     "static/css/main.857057f9.chunk.css.map": "/js-waku/static/css/main.857057f9.chunk.css.map",
-    "static/js/2.41e25953.chunk.js.LICENSE.txt": "/js-waku/static/js/2.41e25953.chunk.js.LICENSE.txt"
+    "static/js/2.bc96e22b.chunk.js.LICENSE.txt": "/js-waku/static/js/2.bc96e22b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.4bf0c119.js",
-    "static/js/2.41e25953.chunk.js",
+    "static/js/2.bc96e22b.chunk.js",
     "static/css/main.857057f9.chunk.css",
-    "static/js/main.6d93aa9d.chunk.js"
+    "static/js/main.8709c2c2.chunk.js"
   ]
 }
