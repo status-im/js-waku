@@ -40,11 +40,7 @@ You can also use `getStatusFleetNodes` to connect to nodes run by Status:
 import { getStatusFleetNodes } from 'js-waku';
 
 const nodes = await getStatusFleetNodes();
-await Promise.all(
-  nodes.map((addr) => {
-    return waku.dial(addr);
-  })
-);
+await Promise.all(nodes.map((addr) => waku.dial(addr)));
 ```
 
 The `contentTopic` is a metadata `string` that allows categorization of messages on the waku network.
