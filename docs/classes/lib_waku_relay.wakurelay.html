@@ -1,0 +1,591 @@
+<!doctype html>
+<html class="default no-js">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>WakuRelay | js-waku</title>
+	<meta name="description" content="Documentation for js-waku">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../assets/css/main.css">
+	<script async src="../assets/js/search.js" id="search-script"></script>
+</head>
+<body>
+<header>
+	<div class="tsd-page-toolbar">
+		<div class="container">
+			<div class="table-wrap">
+				<div class="table-cell" id="tsd-search" data-index="../assets/js/search.json" data-base="..">
+					<div class="field">
+						<label for="tsd-search-field" class="tsd-widget search no-caption">Search</label>
+						<input id="tsd-search-field" type="text" />
+					</div>
+					<ul class="results">
+						<li class="state loading">Preparing search index...</li>
+						<li class="state failure">The search index is not available</li>
+					</ul>
+					<a href="../index.html" class="title">js-waku</a>
+				</div>
+				<div class="table-cell" id="tsd-widgets">
+					<div id="tsd-filter">
+						<a href="#" class="tsd-widget options no-caption" data-toggle="options">Options</a>
+						<div class="tsd-filter-group">
+							<div class="tsd-select" id="tsd-filter-visibility">
+								<span class="tsd-select-label">All</span>
+								<ul class="tsd-select-list">
+									<li data-value="public">Public</li>
+									<li data-value="protected">Public/Protected</li>
+									<li data-value="private" class="selected">All</li>
+								</ul>
+							</div>
+							<input type="checkbox" id="tsd-filter-inherited" checked />
+							<label class="tsd-widget" for="tsd-filter-inherited">Inherited</label>
+							<input type="checkbox" id="tsd-filter-externals" checked />
+							<label class="tsd-widget" for="tsd-filter-externals">Externals</label>
+						</div>
+					</div>
+					<a href="#" class="tsd-widget menu no-caption" data-toggle="menu">Menu</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="tsd-page-title">
+		<div class="container">
+			<ul class="tsd-breadcrumb">
+				<li>
+					<a href="../modules.html">js-waku</a>
+				</li>
+				<li>
+					<a href="../modules/lib_waku_relay.html">lib/waku_relay</a>
+				</li>
+				<li>
+					<a href="lib_waku_relay.wakurelay.html">WakuRelay</a>
+				</li>
+			</ul>
+			<h1>Class WakuRelay</h1>
+		</div>
+	</div>
+</header>
+<div class="container container-main">
+	<div class="row">
+		<div class="col-8 col-content">
+			<section class="tsd-panel tsd-comment">
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Implements the <a href="https://rfc.vac.dev/spec/11/" class="external">Waku v2 Relay protocol</a>.
+						Must be passed as a <code>pubsub</code> module to a {Libp2p} instance.</p>
+					</div>
+					<dl class="tsd-comment-tags">
+						<dt>implements</dt>
+						<dd><p>{Pubsub}</p>
+						</dd>
+					</dl>
+				</div>
+			</section>
+			<section class="tsd-panel tsd-hierarchy">
+				<h3>Hierarchy</h3>
+				<ul class="tsd-hierarchy">
+					<li>
+						<span class="tsd-signature-type">Gossipsub</span>
+						<ul class="tsd-hierarchy">
+							<li>
+								<span class="target">WakuRelay</span>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel">
+				<h3>Implements</h3>
+				<ul class="tsd-hierarchy">
+					<li><span class="tsd-signature-type">Pubsub</span></li>
+				</ul>
+			</section>
+			<section class="tsd-panel-group tsd-index-group">
+				<h2>Index</h2>
+				<section class="tsd-panel tsd-index-panel">
+					<div class="tsd-index-content">
+						<section class="tsd-index-section ">
+							<h3>Constructors</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-constructor tsd-parent-kind-class tsd-is-overwrite"><a href="lib_waku_relay.wakurelay.html#constructor" class="tsd-kind-icon">constructor</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Properties</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-overwrite"><a href="lib_waku_relay.wakurelay.html#heartbeat" class="tsd-kind-icon">heartbeat</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="lib_waku_relay.wakurelay.html#observers" class="tsd-kind-icon">observers</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="lib_waku_relay.wakurelay.html#pubsubtopic" class="tsd-kind-icon">pubsub<wbr>Topic</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Methods</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="lib_waku_relay.wakurelay.html#addobserver" class="tsd-kind-icon">add<wbr>Observer</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="lib_waku_relay.wakurelay.html#deleteobserver" class="tsd-kind-icon">delete<wbr>Observer</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="lib_waku_relay.wakurelay.html#getpeers" class="tsd-kind-icon">get<wbr>Peers</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="lib_waku_relay.wakurelay.html#send" class="tsd-kind-icon">send</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-overwrite"><a href="lib_waku_relay.wakurelay.html#start" class="tsd-kind-icon">start</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-overwrite"><a href="lib_waku_relay.wakurelay.html#subscribe" class="tsd-kind-icon">subscribe</a></li>
+							</ul>
+						</section>
+					</div>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Constructors</h2>
+				<section class="tsd-panel tsd-member tsd-kind-constructor tsd-parent-kind-class tsd-is-overwrite">
+					<a name="constructor" class="tsd-anchor"></a>
+					<h3>constructor</h3>
+					<ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class tsd-is-overwrite">
+						<li class="tsd-signature tsd-kind-icon">new <wbr>Waku<wbr>Relay<span class="tsd-signature-symbol">(</span>libp2p<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Libp2p</span>, options<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">Partial</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/lib_waku.createoptions.html" class="tsd-signature-type" data-tsd-kind="Interface">CreateOptions</a><span class="tsd-signature-symbol"> &amp; </span><a href="../interfaces/lib_waku_relay.gossipoptions.html" class="tsd-signature-type" data-tsd-kind="Interface">GossipOptions</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="lib_waku_relay.wakurelay.html" class="tsd-signature-type" data-tsd-kind="Class">WakuRelay</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Overrides Gossipsub.constructor</p>
+								<ul>
+									<li>Defined in <a href="https://github.com/status-im/js-waku/blob/3ca365c/src/lib/waku_relay/index.ts#L69">src/lib/waku_relay/index.ts:69</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>libp2p: <span class="tsd-signature-type">Libp2p</span></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> options: <span class="tsd-signature-type">Partial</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/lib_waku.createoptions.html" class="tsd-signature-type" data-tsd-kind="Interface">CreateOptions</a><span class="tsd-signature-symbol"> &amp; </span><a href="../interfaces/lib_waku_relay.gossipoptions.html" class="tsd-signature-type" data-tsd-kind="Interface">GossipOptions</a><span class="tsd-signature-symbol">&gt;</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="lib_waku_relay.wakurelay.html" class="tsd-signature-type" data-tsd-kind="Class">WakuRelay</a></h4>
+						</li>
+					</ul>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Properties</h2>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-overwrite">
+					<a name="heartbeat" class="tsd-anchor"></a>
+					<h3>heartbeat</h3>
+					<div class="tsd-signature tsd-kind-icon">heartbeat<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">RelayHeartbeat</span></div>
+					<aside class="tsd-sources">
+						<p>Overrides Gossipsub.heartbeat</p>
+						<ul>
+							<li>Defined in <a href="https://github.com/status-im/js-waku/blob/3ca365c/src/lib/waku_relay/index.ts#L61">src/lib/waku_relay/index.ts:61</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="observers" class="tsd-anchor"></a>
+					<h3>observers</h3>
+					<div class="tsd-signature tsd-kind-icon">observers<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">{}</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/status-im/js-waku/blob/3ca365c/src/lib/waku_relay/index.ts#L67">src/lib/waku_relay/index.ts:67</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>observers called when receiving new message.
+							Observers under key &quot;&quot; are always called.</p>
+						</div>
+					</div>
+					<div class="tsd-type-declaration">
+						<h4>Type declaration</h4>
+						<ul class="tsd-parameters">
+							<li class="tsd-parameter-index-signature">
+								<h5><span class="tsd-signature-symbol">[</span>contentTopic: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">]: </span><span class="tsd-signature-type">Set</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-symbol">(</span>message<span class="tsd-signature-symbol">: </span><a href="lib_waku_message.wakumessage.html" class="tsd-signature-type" data-tsd-kind="Class">WakuMessage</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h5>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="pubsubtopic" class="tsd-anchor"></a>
+					<h3>pubsub<wbr>Topic</h3>
+					<div class="tsd-signature tsd-kind-icon">pubsub<wbr>Topic<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/status-im/js-waku/blob/3ca365c/src/lib/waku_relay/index.ts#L62">src/lib/waku_relay/index.ts:62</a></li>
+						</ul>
+					</aside>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Methods</h2>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="addobserver" class="tsd-anchor"></a>
+					<h3>add<wbr>Observer</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">add<wbr>Observer<span class="tsd-signature-symbol">(</span>callback<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span>message<span class="tsd-signature-symbol">: </span><a href="lib_waku_message.wakumessage.html" class="tsd-signature-type" data-tsd-kind="Class">WakuMessage</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span>, contentTopics<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/status-im/js-waku/blob/3ca365c/src/lib/waku_relay/index.ts#L128">src/lib/waku_relay/index.ts:128</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Register an observer of new messages received via waku relay</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>callback: <span class="tsd-signature-symbol">(</span>message<span class="tsd-signature-symbol">: </span><a href="lib_waku_message.wakumessage.html" class="tsd-signature-type" data-tsd-kind="Class">WakuMessage</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>called when a new message is received via waku relay</p>
+									</div>
+									<ul class="tsd-parameters">
+										<li class="tsd-parameter-signature">
+											<ul class="tsd-signatures tsd-kind-type-literal">
+												<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>message<span class="tsd-signature-symbol">: </span><a href="lib_waku_message.wakumessage.html" class="tsd-signature-type" data-tsd-kind="Class">WakuMessage</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+											</ul>
+											<ul class="tsd-descriptions">
+												<li class="tsd-description">
+													<h4 class="tsd-parameters-title">Parameters</h4>
+													<ul class="tsd-parameters">
+														<li>
+															<h5>message: <a href="lib_waku_message.wakumessage.html" class="tsd-signature-type" data-tsd-kind="Class">WakuMessage</a></h5>
+														</li>
+													</ul>
+													<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<h5>contentTopics: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> = []</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>Content Topics for which the callback with be called,
+										all of them if undefined, [] or [&quot;&quot;,..] is passed.</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="deleteobserver" class="tsd-anchor"></a>
+					<h3>delete<wbr>Observer</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">delete<wbr>Observer<span class="tsd-signature-symbol">(</span>callback<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span>message<span class="tsd-signature-symbol">: </span><a href="lib_waku_message.wakumessage.html" class="tsd-signature-type" data-tsd-kind="Class">WakuMessage</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span>, contentTopics<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/status-im/js-waku/blob/3ca365c/src/lib/waku_relay/index.ts#L152">src/lib/waku_relay/index.ts:152</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Remove an observer of new messages received via waku relay.
+										Useful to ensure the same observer is not registered several time
+									(e.g when loading React components)</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>callback: <span class="tsd-signature-symbol">(</span>message<span class="tsd-signature-symbol">: </span><a href="lib_waku_message.wakumessage.html" class="tsd-signature-type" data-tsd-kind="Class">WakuMessage</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></h5>
+									<ul class="tsd-parameters">
+										<li class="tsd-parameter-signature">
+											<ul class="tsd-signatures tsd-kind-type-literal">
+												<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>message<span class="tsd-signature-symbol">: </span><a href="lib_waku_message.wakumessage.html" class="tsd-signature-type" data-tsd-kind="Class">WakuMessage</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+											</ul>
+											<ul class="tsd-descriptions">
+												<li class="tsd-description">
+													<h4 class="tsd-parameters-title">Parameters</h4>
+													<ul class="tsd-parameters">
+														<li>
+															<h5>message: <a href="lib_waku_message.wakumessage.html" class="tsd-signature-type" data-tsd-kind="Class">WakuMessage</a></h5>
+														</li>
+													</ul>
+													<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<h5>contentTopics: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> = []</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="getpeers" class="tsd-anchor"></a>
+					<h3>get<wbr>Peers</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Peers<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Set</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/status-im/js-waku/blob/3ca365c/src/lib/waku_relay/index.ts#L172">src/lib/waku_relay/index.ts:172</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Return the relay peers we are connected to and we would publish a message to</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Set</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="send" class="tsd-anchor"></a>
+					<h3>send</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">send<span class="tsd-signature-symbol">(</span>message<span class="tsd-signature-symbol">: </span><a href="lib_waku_message.wakumessage.html" class="tsd-signature-type" data-tsd-kind="Class">WakuMessage</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/status-im/js-waku/blob/3ca365c/src/lib/waku_relay/index.ts#L115">src/lib/waku_relay/index.ts:115</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Send Waku message.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>message: <a href="lib_waku_message.wakumessage.html" class="tsd-signature-type" data-tsd-kind="Class">WakuMessage</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-overwrite">
+					<a name="start" class="tsd-anchor"></a>
+					<h3>start</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-overwrite">
+						<li class="tsd-signature tsd-kind-icon">start<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of Pubsub.start</p>
+								<p>Overrides Gossipsub.start</p>
+								<ul>
+									<li>Defined in <a href="https://github.com/status-im/js-waku/blob/3ca365c/src/lib/waku_relay/index.ts#L104">src/lib/waku_relay/index.ts:104</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Mounts the gossipsub protocol onto the libp2p node
+									and subscribes to the default topic.</p>
+								</div>
+								<dl class="tsd-comment-tags">
+									<dt>override</dt>
+									<dd></dd>
+								</dl>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-overwrite">
+					<a name="subscribe" class="tsd-anchor"></a>
+					<h3>subscribe</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-overwrite">
+						<li class="tsd-signature tsd-kind-icon">subscribe<span class="tsd-signature-symbol">(</span>pubsubTopic<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of Pubsub.subscribe</p>
+								<p>Overrides Gossipsub.subscribe</p>
+								<ul>
+									<li>Defined in <a href="https://github.com/status-im/js-waku/blob/3ca365c/src/lib/waku_relay/index.ts#L186">src/lib/waku_relay/index.ts:186</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Subscribe to a pubsub topic and start emitting Waku messages to observers.</p>
+								</div>
+								<dl class="tsd-comment-tags">
+									<dt>override</dt>
+									<dd></dd>
+								</dl>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>pubsubTopic: <span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+			</section>
+		</div>
+		<div class="col-4 col-menu menu-sticky-wrap menu-highlight">
+			<nav class="tsd-navigation primary">
+				<ul>
+					<li class=" ">
+						<a href="../modules.html">Exports</a>
+					</li>
+					<li class=" tsd-kind-module">
+						<a href="../modules/index.html">index</a>
+					</li>
+					<li class=" tsd-kind-module">
+						<a href="../modules/lib_chat_message.html">lib/chat_<wbr>message</a>
+					</li>
+					<li class=" tsd-kind-module">
+						<a href="../modules/lib_delay.html">lib/delay</a>
+					</li>
+					<li class=" tsd-kind-module">
+						<a href="../modules/lib_discover.html">lib/discover</a>
+					</li>
+					<li class=" tsd-kind-module">
+						<a href="../modules/lib_select_peer.html">lib/select_<wbr>peer</a>
+					</li>
+					<li class=" tsd-kind-module">
+						<a href="../modules/lib_waku.html">lib/waku</a>
+					</li>
+					<li class=" tsd-kind-module">
+						<a href="../modules/lib_waku_light_push.html">lib/waku_<wbr>light_<wbr>push</a>
+					</li>
+					<li class=" tsd-kind-module">
+						<a href="../modules/lib_waku_light_push_push_rpc.html">lib/waku_<wbr>light_<wbr>push/push_<wbr>rpc</a>
+					</li>
+					<li class=" tsd-kind-module">
+						<a href="../modules/lib_waku_message.html">lib/waku_<wbr>message</a>
+					</li>
+					<li class="current tsd-kind-module">
+						<a href="../modules/lib_waku_relay.html">lib/waku_<wbr>relay</a>
+					</li>
+					<li class=" tsd-kind-module">
+						<a href="../modules/lib_waku_relay_constants.html">lib/waku_<wbr>relay/constants</a>
+					</li>
+					<li class=" tsd-kind-module">
+						<a href="../modules/lib_waku_relay_get_relay_peers.html">lib/waku_<wbr>relay/get_<wbr>relay_<wbr>peers</a>
+					</li>
+					<li class=" tsd-kind-module">
+						<a href="../modules/lib_waku_store.html">lib/waku_<wbr>store</a>
+					</li>
+					<li class=" tsd-kind-module">
+						<a href="../modules/lib_waku_store_history_rpc.html">lib/waku_<wbr>store/history_<wbr>rpc</a>
+					</li>
+					<li class=" tsd-kind-module">
+						<a href="../modules/proto.html">proto</a>
+					</li>
+					<li class=" tsd-kind-module">
+						<a href="../modules/proto_chat_v2_chat_message.html">proto/chat/v2/chat_<wbr>message</a>
+					</li>
+					<li class=" tsd-kind-module">
+						<a href="../modules/proto_waku_v2_light_push.html">proto/waku/v2/light_<wbr>push</a>
+					</li>
+					<li class=" tsd-kind-module">
+						<a href="../modules/proto_waku_v2_message.html">proto/waku/v2/message</a>
+					</li>
+					<li class=" tsd-kind-module">
+						<a href="../modules/proto_waku_v2_store.html">proto/waku/v2/store</a>
+					</li>
+					<li class=" tsd-kind-module">
+						<a href="../modules/types_types.html">types/types</a>
+					</li>
+				</ul>
+			</nav>
+			<nav class="tsd-navigation secondary menu-sticky">
+				<ul class="before-current">
+					<li class=" tsd-kind-reference tsd-parent-kind-module">
+						<a href="../modules/lib_waku_relay.html#defaultpubsubtopic" class="tsd-kind-icon">Default<wbr>Pubsub<wbr>Topic</a>
+					</li>
+					<li class=" tsd-kind-reference tsd-parent-kind-module">
+						<a href="../modules/lib_waku_relay.html#relaycodec" class="tsd-kind-icon">Relay<wbr>Codec</a>
+					</li>
+				</ul>
+				<ul class="current">
+					<li class="current tsd-kind-class tsd-parent-kind-module">
+						<a href="lib_waku_relay.wakurelay.html" class="tsd-kind-icon">Waku<wbr>Relay</a>
+						<ul>
+							<li class=" tsd-kind-constructor tsd-parent-kind-class tsd-is-overwrite">
+								<a href="lib_waku_relay.wakurelay.html#constructor" class="tsd-kind-icon">constructor</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-overwrite">
+								<a href="lib_waku_relay.wakurelay.html#heartbeat" class="tsd-kind-icon">heartbeat</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="lib_waku_relay.wakurelay.html#observers" class="tsd-kind-icon">observers</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="lib_waku_relay.wakurelay.html#pubsubtopic" class="tsd-kind-icon">pubsub<wbr>Topic</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="lib_waku_relay.wakurelay.html#addobserver" class="tsd-kind-icon">add<wbr>Observer</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="lib_waku_relay.wakurelay.html#deleteobserver" class="tsd-kind-icon">delete<wbr>Observer</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="lib_waku_relay.wakurelay.html#getpeers" class="tsd-kind-icon">get<wbr>Peers</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="lib_waku_relay.wakurelay.html#send" class="tsd-kind-icon">send</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-overwrite">
+								<a href="lib_waku_relay.wakurelay.html#start" class="tsd-kind-icon">start</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-overwrite">
+								<a href="lib_waku_relay.wakurelay.html#subscribe" class="tsd-kind-icon">subscribe</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<ul class="after-current">
+					<li class=" tsd-kind-interface tsd-parent-kind-module">
+						<a href="../interfaces/lib_waku_relay.gossipoptions.html" class="tsd-kind-icon">Gossip<wbr>Options</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+</div>
+<footer class="with-border-bottom">
+	<div class="container">
+		<h2>Legend</h2>
+		<div class="tsd-legend-group">
+			<ul class="tsd-legend">
+				<li class="tsd-kind-namespace"><span class="tsd-kind-icon">Namespace</span></li>
+				<li class="tsd-kind-variable"><span class="tsd-kind-icon">Variable</span></li>
+				<li class="tsd-kind-function"><span class="tsd-kind-icon">Function</span></li>
+				<li class="tsd-kind-type-alias tsd-has-type-parameter"><span class="tsd-kind-icon">Type alias with type parameter</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-class"><span class="tsd-kind-icon">Class</span></li>
+				<li class="tsd-kind-constructor tsd-parent-kind-class"><span class="tsd-kind-icon">Constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-class"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class"><span class="tsd-kind-icon">Method</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-enum"><span class="tsd-kind-icon">Enumeration</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-interface"><span class="tsd-kind-icon">Interface</span></li>
+			</ul>
+		</div>
+	</div>
+</footer>
+<div class="container tsd-generator">
+	<p>Generated using <a href="https://typedoc.org/" target="_blank">TypeDoc</a></p>
+</div>
+<div class="overlay"></div>
+<script src="../assets/js/main.js"></script>
+</body>
+</html>
