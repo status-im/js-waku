@@ -7,6 +7,10 @@ console.log = function (message) {
   document.getElementById('console').innerHTML += '<br />' + message;
 };
 
+console.error = function (message) {
+  document.getElementById('console').innerHTML += '<br />ERR: ' + message;
+};
+
 export default function App() {
   const [waku, setWaku] = useState();
 
