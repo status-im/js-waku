@@ -1,25 +1,34 @@
-import logo from './logo.svg';
 import './App.css';
+import { Waku } from 'js-waku';
+import { useEffect, useState } from 'react';
+import { Paper } from '@material-ui/core';
 
-function App() {
+console.log = function (message) {
+  document.getElementById('console').innerHTML += '<br />' + message;
+};
+
+export default function App() {
+  const [waku, setWaku] = useState();
+
+  useEffect(() => {
+    if (waku) return;
+    console.log('Starting Waku');
+    Waku.create()
+      .then((waku) => {
+        console.log('waku: ready');
+        setWaku(waku);
+      })
+      .catch((e) => {
+        console.error('Failed to start Waku', e);
+      });
+  }, [waku]);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Paper elevation={3}>
+        <h2>Console:</h2>
+        <div id="console"></div>
+      </Paper>
     </div>
   );
 }
-
-export default App;

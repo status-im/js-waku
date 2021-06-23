@@ -3,9 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.11.4",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
+    "js-waku": "../../build/main",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
@@ -14,8 +16,14 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test": "run-s build test:*",
+    "eject": "react-scripts eject",
+    "fix": "run-s fix:*",
+    "test:lint": "eslint src --ext .js",
+    "test:prettier": "prettier \"src/**/*.js\" \"./*.json\" --list-different",
+    "test:spelling": "cspell \"{README.md,src/**/*.js,public/**/*.html}\" -c ../../.cspell.json",
+    "fix:prettier": "prettier \"src/**/*.js\" \"./*.json\" --write",
+    "fix:lint": "eslint src --ext .js --fix"
   },
   "eslintConfig": {
     "extends": [
@@ -34,5 +42,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "eslint": "^7.29.0",
+    "prettier": "^2.3.1"
   }
 }
