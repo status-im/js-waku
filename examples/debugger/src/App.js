@@ -2,6 +2,7 @@ import './App.css';
 import { Waku } from 'js-waku';
 import { useEffect, useState } from 'react';
 import { Paper } from '@material-ui/core';
+import Connect from './Connect';
 
 console.log = function (message) {
   document.getElementById('console').innerHTML += '<br />' + message;
@@ -16,7 +17,7 @@ export default function App() {
 
   useEffect(() => {
     if (waku) return;
-    console.log('Starting Waku');
+    console.log('waku: starting');
     Waku.create()
       .then((waku) => {
         console.log('waku: ready');
@@ -29,6 +30,7 @@ export default function App() {
 
   return (
     <div className="App">
+      <Connect waku={waku} />
       <Paper elevation={3}>
         <h2>Console:</h2>
         <div id="console"></div>

@@ -8,7 +8,7 @@ import Ping from 'libp2p/src/ping';
 import { Multiaddr, multiaddr } from 'multiaddr';
 import PeerId from 'peer-id';
 
-import { WakuLightPush } from './waku_light_push';
+import { LightPushCodec, WakuLightPush } from './waku_light_push';
 import { RelayCodec, WakuRelay } from './waku_relay';
 import { StoreCodec, WakuStore } from './waku_store';
 
@@ -158,7 +158,7 @@ export class Waku {
     stream: import('libp2p-interfaces/src/stream-muxer/types').MuxedStream;
     protocol: string;
   }> {
-    return this.libp2p.dialProtocol(peer, [RelayCodec, StoreCodec]);
+    return this.libp2p.dialProtocol(peer, [RelayCodec, StoreCodec, LightPushCodec]);
   }
 
   /**
