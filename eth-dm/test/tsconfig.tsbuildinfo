@@ -1,0 +1,2800 @@
+{
+  "program": {
+    "fileInfos": {
+      "../node_modules/typescript/lib/lib.es5.d.ts": {
+        "version": "b3584bc5798ed422ce2516df360ffa9cf2d80b5eae852867db9ba3743145f895",
+        "signature": "b3584bc5798ed422ce2516df360ffa9cf2d80b5eae852867db9ba3743145f895",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.es2015.d.ts": {
+        "version": "dc47c4fa66b9b9890cf076304de2a9c5201e94b740cffdf09f87296d877d71f6",
+        "signature": "dc47c4fa66b9b9890cf076304de2a9c5201e94b740cffdf09f87296d877d71f6",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/typescript/lib/lib.es2016.d.ts": {
+        "version": "7a387c58583dfca701b6c85e0adaf43fb17d590fb16d5b2dc0a2fbd89f35c467",
+        "signature": "7a387c58583dfca701b6c85e0adaf43fb17d590fb16d5b2dc0a2fbd89f35c467",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/typescript/lib/lib.es2017.d.ts": {
+        "version": "8a12173c586e95f4433e0c6dc446bc88346be73ffe9ca6eec7aa63c8f3dca7f9",
+        "signature": "8a12173c586e95f4433e0c6dc446bc88346be73ffe9ca6eec7aa63c8f3dca7f9",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/typescript/lib/lib.es2018.d.ts": {
+        "version": "5f4e733ced4e129482ae2186aae29fde948ab7182844c3a5a51dd346182c7b06",
+        "signature": "5f4e733ced4e129482ae2186aae29fde948ab7182844c3a5a51dd346182c7b06",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/typescript/lib/lib.es2015.core.d.ts": {
+        "version": "46ee15e9fefa913333b61eaf6b18885900b139867d89832a515059b62cf16a17",
+        "signature": "46ee15e9fefa913333b61eaf6b18885900b139867d89832a515059b62cf16a17",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.es2015.collection.d.ts": {
+        "version": "43fb1d932e4966a39a41b464a12a81899d9ae5f2c829063f5571b6b87e6d2f9c",
+        "signature": "43fb1d932e4966a39a41b464a12a81899d9ae5f2c829063f5571b6b87e6d2f9c",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.es2015.generator.d.ts": {
+        "version": "cdccba9a388c2ee3fd6ad4018c640a471a6c060e96f1232062223063b0a5ac6a",
+        "signature": "cdccba9a388c2ee3fd6ad4018c640a471a6c060e96f1232062223063b0a5ac6a",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.es2015.iterable.d.ts": {
+        "version": "8b2a5df1ce95f78f6b74f1a555ccdb6baab0486b42d8345e0871dd82811f9b9a",
+        "signature": "8b2a5df1ce95f78f6b74f1a555ccdb6baab0486b42d8345e0871dd82811f9b9a",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.es2015.promise.d.ts": {
+        "version": "2bb4b3927299434052b37851a47bf5c39764f2ba88a888a107b32262e9292b7c",
+        "signature": "2bb4b3927299434052b37851a47bf5c39764f2ba88a888a107b32262e9292b7c",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.es2015.proxy.d.ts": {
+        "version": "810627a82ac06fb5166da5ada4159c4ec11978dfbb0805fe804c86406dab8357",
+        "signature": "810627a82ac06fb5166da5ada4159c4ec11978dfbb0805fe804c86406dab8357",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.es2015.reflect.d.ts": {
+        "version": "62d80405c46c3f4c527ee657ae9d43fda65a0bf582292429aea1e69144a522a6",
+        "signature": "62d80405c46c3f4c527ee657ae9d43fda65a0bf582292429aea1e69144a522a6",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.es2015.symbol.d.ts": {
+        "version": "3013574108c36fd3aaca79764002b3717da09725a36a6fc02eac386593110f93",
+        "signature": "3013574108c36fd3aaca79764002b3717da09725a36a6fc02eac386593110f93",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts": {
+        "version": "9d122b7e8c1a5c72506eea50c0973cba55b92b5532d5cafa8a6ce2c547d57551",
+        "signature": "9d122b7e8c1a5c72506eea50c0973cba55b92b5532d5cafa8a6ce2c547d57551",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.es2016.array.include.d.ts": {
+        "version": "3be5a1453daa63e031d266bf342f3943603873d890ab8b9ada95e22389389006",
+        "signature": "3be5a1453daa63e031d266bf342f3943603873d890ab8b9ada95e22389389006",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.es2017.object.d.ts": {
+        "version": "17bb1fc99591b00515502d264fa55dc8370c45c5298f4a5c2083557dccba5a2a",
+        "signature": "17bb1fc99591b00515502d264fa55dc8370c45c5298f4a5c2083557dccba5a2a",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts": {
+        "version": "7ce9f0bde3307ca1f944119f6365f2d776d281a393b576a18a2f2893a2d75c98",
+        "signature": "7ce9f0bde3307ca1f944119f6365f2d776d281a393b576a18a2f2893a2d75c98",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.es2017.string.d.ts": {
+        "version": "6a6b173e739a6a99629a8594bfb294cc7329bfb7b227f12e1f7c11bc163b8577",
+        "signature": "6a6b173e739a6a99629a8594bfb294cc7329bfb7b227f12e1f7c11bc163b8577",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.es2017.intl.d.ts": {
+        "version": "12a310447c5d23c7d0d5ca2af606e3bd08afda69100166730ab92c62999ebb9d",
+        "signature": "12a310447c5d23c7d0d5ca2af606e3bd08afda69100166730ab92c62999ebb9d",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.es2017.typedarrays.d.ts": {
+        "version": "b0124885ef82641903d232172577f2ceb5d3e60aed4da1153bab4221e1f6dd4e",
+        "signature": "b0124885ef82641903d232172577f2ceb5d3e60aed4da1153bab4221e1f6dd4e",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts": {
+        "version": "0eb85d6c590b0d577919a79e0084fa1744c1beba6fd0d4e951432fa1ede5510a",
+        "signature": "0eb85d6c590b0d577919a79e0084fa1744c1beba6fd0d4e951432fa1ede5510a",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.es2018.asynciterable.d.ts": {
+        "version": "a40c4d82bf13fcded295ac29f354eb7d40249613c15e07b53f2fc75e45e16359",
+        "signature": "a40c4d82bf13fcded295ac29f354eb7d40249613c15e07b53f2fc75e45e16359",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.es2018.intl.d.ts": {
+        "version": "df9c8a72ca8b0ed62f5470b41208a0587f0f73f0a7db28e5a1272cf92537518e",
+        "signature": "df9c8a72ca8b0ed62f5470b41208a0587f0f73f0a7db28e5a1272cf92537518e",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.es2018.promise.d.ts": {
+        "version": "bb2d3fb05a1d2ffbca947cc7cbc95d23e1d053d6595391bd325deb265a18d36c",
+        "signature": "bb2d3fb05a1d2ffbca947cc7cbc95d23e1d053d6595391bd325deb265a18d36c",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.es2018.regexp.d.ts": {
+        "version": "c80df75850fea5caa2afe43b9949338ce4e2de086f91713e9af1a06f973872b8",
+        "signature": "c80df75850fea5caa2afe43b9949338ce4e2de086f91713e9af1a06f973872b8",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.es2020.bigint.d.ts": {
+        "version": "7b5a10e3c897fabece5a51aa85b4111727d7adb53c2734b5d37230ff96802a09",
+        "signature": "7b5a10e3c897fabece5a51aa85b4111727d7adb53c2734b5d37230ff96802a09",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.esnext.intl.d.ts": {
+        "version": "506b80b9951c9381dc5f11897b31fca5e2a65731d96ddefa19687fbc26b23c6e",
+        "signature": "506b80b9951c9381dc5f11897b31fca5e2a65731d96ddefa19687fbc26b23c6e",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/axios/index.d.ts": {
+        "version": "0d892f035dbee4534f0ba096407136877595ca592f67ec9bb8a5c912b9c967e8",
+        "signature": "0d892f035dbee4534f0ba096407136877595ca592f67ec9bb8a5c912b9c967e8",
+        "affectsGlobalScope": false
+      },
+      "../src/lib/discover.ts": {
+        "version": "1ab2cf1a354a38706756117a7a5a355d81bb4eaac2dd7b8b3bf1a5b9f3fb5768",
+        "signature": "b81cc68b620722167d74adfb949ca84f2726bf538f43c6f7e830d5a5f8fcb79c",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/multiaddr/dist/src/types.d.ts": {
+        "version": "13ac2795faee951e6e80877284aa07aa1a17ffc0adb49edcec8710c3eabd4715",
+        "signature": "13ac2795faee951e6e80877284aa07aa1a17ffc0adb49edcec8710c3eabd4715",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/multiaddr/dist/src/protocols-table.d.ts": {
+        "version": "9f0c3318bf3a4632534b62192ed340d43364b902562876748aa40424197268df",
+        "signature": "9f0c3318bf3a4632534b62192ed340d43364b902562876748aa40424197268df",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/multiaddr/dist/src/index.d.ts": {
+        "version": "2cbeacc7df53a49a4c230fa2cebcf23f96f8276e46d7c4895f2b312e04b4e765",
+        "signature": "2cbeacc7df53a49a4c230fa2cebcf23f96f8276e46d7c4895f2b312e04b4e765",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/libp2p-crypto/src/index.d.ts": {
+        "version": "e6179c39e33eda5d07ac51112ed0a5d13fe3941415e3663d17eb24b729f3bddf",
+        "signature": "e6179c39e33eda5d07ac51112ed0a5d13fe3941415e3663d17eb24b729f3bddf",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/multicodec/dist/src/generated-types.d.ts": {
+        "version": "9b1208b4f73c5b989cf1495e54f9518262ebfab335570c31f3740195a8b8f046",
+        "signature": "9b1208b4f73c5b989cf1495e54f9518262ebfab335570c31f3740195a8b8f046",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/cids/dist/src/index.d.ts": {
+        "version": "2bb095c8322e316a509760a9039b9a5bc9d05c21e722587f148bf3354ad77103",
+        "signature": "2bb095c8322e316a509760a9039b9a5bc9d05c21e722587f148bf3354ad77103",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/peer-id/src/index.d.ts": {
+        "version": "db363aab1e392685403291b395d4b942c69d79ef51fce3d3f27e92287cd33ba7",
+        "signature": "db363aab1e392685403291b395d4b942c69d79ef51fce3d3f27e92287cd33ba7",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/libp2p/dist/src/peer-store/book.d.ts": {
+        "version": "c36b8792a3963f476d10f1ce94efd2c08c7f3f1b127a0601bebd2b24f92a3fcb",
+        "signature": "c36b8792a3963f476d10f1ce94efd2c08c7f3f1b127a0601bebd2b24f92a3fcb",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/libp2p-interfaces/dist/src/record/types.d.ts": {
+        "version": "1980cb148baaf2287c5cfcdab6973abd99f368e837194e726841f31e8ceb3829",
+        "signature": "1980cb148baaf2287c5cfcdab6973abd99f368e837194e726841f31e8ceb3829",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/libp2p/dist/src/record/envelope/index.d.ts": {
+        "version": "be8cd27474e54aee26f0f72e1a7a6c862a5a416df03bd230c8a56d255c0e4865",
+        "signature": "be8cd27474e54aee26f0f72e1a7a6c862a5a416df03bd230c8a56d255c0e4865",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/libp2p/dist/src/peer-store/address-book.d.ts": {
+        "version": "34bbe6a99a523951a86e85464f8a1d332c575864c65494c5a9a57c2eaa06c33f",
+        "signature": "34bbe6a99a523951a86e85464f8a1d332c575864c65494c5a9a57c2eaa06c33f",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/libp2p/dist/src/peer-store/key-book.d.ts": {
+        "version": "7d3b61752f64ebf172dbc04941b8f52cf84db7b7ea2a5616c4f59abbf766cc81",
+        "signature": "7d3b61752f64ebf172dbc04941b8f52cf84db7b7ea2a5616c4f59abbf766cc81",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/libp2p/dist/src/peer-store/metadata-book.d.ts": {
+        "version": "773ff2ceedd494ea5e6dc9f5aba908bca19a756327705a50d1bfc242eaa95de8",
+        "signature": "773ff2ceedd494ea5e6dc9f5aba908bca19a756327705a50d1bfc242eaa95de8",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/libp2p/dist/src/peer-store/proto-book.d.ts": {
+        "version": "65c04e7601920734793fc7a4f80703c81f4ebbe2a948bf229930c7ac56baddf8",
+        "signature": "65c04e7601920734793fc7a4f80703c81f4ebbe2a948bf229930c7ac56baddf8",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/libp2p/dist/src/peer-store/index.d.ts": {
+        "version": "985b3099803c14581f4387686f4b7dac65d9472b10433c8541c30f852a99d5af",
+        "signature": "985b3099803c14581f4387686f4b7dac65d9472b10433c8541c30f852a99d5af",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/libp2p/dist/src/address-manager/index.d.ts": {
+        "version": "ef145137d073fefdf0b4596e34ab786db00ac17a3ce17ab588381db8737d8446",
+        "signature": "ef145137d073fefdf0b4596e34ab786db00ac17a3ce17ab588381db8737d8446",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/libp2p/dist/src/connection-manager/visibility-change-emitter.d.ts": {
+        "version": "18cdbe291201870c5dc10a5b9c4f184e6b67b01b7b6d2d8721a268ae55bc3ece",
+        "signature": "18cdbe291201870c5dc10a5b9c4f184e6b67b01b7b6d2d8721a268ae55bc3ece",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/libp2p/dist/src/connection-manager/latency-monitor.d.ts": {
+        "version": "148f0c3ee9f0b77f2ea78f8b46ebd19ed87dba508a531e8405add090e6470783",
+        "signature": "148f0c3ee9f0b77f2ea78f8b46ebd19ed87dba508a531e8405add090e6470783",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/globals.d.ts": {
+        "version": "25b4a0c4fab47c373ee49df4c239826ee3430019fc0c1b5e59edc3e398b7468d",
+        "signature": "25b4a0c4fab47c373ee49df4c239826ee3430019fc0c1b5e59edc3e398b7468d",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/@types/node/async_hooks.d.ts": {
+        "version": "e23424b97418eca3226fd24de079f1203eb70360622e4e093af2aff14d4be6ec",
+        "signature": "e23424b97418eca3226fd24de079f1203eb70360622e4e093af2aff14d4be6ec",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/buffer.d.ts": {
+        "version": "a473cf45c3d9809518f8af913312139d9f4db6887dc554e0d06d0f4e52722e6b",
+        "signature": "a473cf45c3d9809518f8af913312139d9f4db6887dc554e0d06d0f4e52722e6b",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/child_process.d.ts": {
+        "version": "a668dfae917097b30fc29bbebeeb869cee22529f2aa9976cea03c7e834a1b841",
+        "signature": "a668dfae917097b30fc29bbebeeb869cee22529f2aa9976cea03c7e834a1b841",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/cluster.d.ts": {
+        "version": "04eaa93bd75f937f9184dcb95a7983800c5770cf8ddd8ac0f3734dc02f5b20ef",
+        "signature": "04eaa93bd75f937f9184dcb95a7983800c5770cf8ddd8ac0f3734dc02f5b20ef",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/console.d.ts": {
+        "version": "7ddd5487c03df04c01a8618e06d875e167524902ed3dd9a2a9345a0ef5202d6f",
+        "signature": "7ddd5487c03df04c01a8618e06d875e167524902ed3dd9a2a9345a0ef5202d6f",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/@types/node/constants.d.ts": {
+        "version": "45ac321f2e15d268fd74a90ddaa6467dcaaff2c5b13f95b4b85831520fb7a491",
+        "signature": "45ac321f2e15d268fd74a90ddaa6467dcaaff2c5b13f95b4b85831520fb7a491",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/crypto.d.ts": {
+        "version": "aab38abd210255237d4dc101c9e5b5f8d746fd75aeb30cc77b6a4d322b06693d",
+        "signature": "aab38abd210255237d4dc101c9e5b5f8d746fd75aeb30cc77b6a4d322b06693d",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/dgram.d.ts": {
+        "version": "797a9d37eb1f76143311c3f0a186ce5c0d8735e94c0ca08ff8712a876c9b4f9e",
+        "signature": "797a9d37eb1f76143311c3f0a186ce5c0d8735e94c0ca08ff8712a876c9b4f9e",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/dns.d.ts": {
+        "version": "bc31e01146eec89eb870b9ad8c55d759bcbc8989a894e6f0f81f832e0d10eb04",
+        "signature": "bc31e01146eec89eb870b9ad8c55d759bcbc8989a894e6f0f81f832e0d10eb04",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/domain.d.ts": {
+        "version": "2866a528b2708aa272ec3eaafd3c980abb23aec1ef831cfc5eb2186b98c37ce5",
+        "signature": "2866a528b2708aa272ec3eaafd3c980abb23aec1ef831cfc5eb2186b98c37ce5",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/@types/node/events.d.ts": {
+        "version": "153d835dc32985120790e10102834b0a5bd979bb5e42bfbb33c0ff6260cf03ce",
+        "signature": "153d835dc32985120790e10102834b0a5bd979bb5e42bfbb33c0ff6260cf03ce",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/@types/node/fs.d.ts": {
+        "version": "a44c87a409b60f211a240341905d818f5f173420dcf7f989ee6c8a1a3d812ae9",
+        "signature": "a44c87a409b60f211a240341905d818f5f173420dcf7f989ee6c8a1a3d812ae9",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/fs/promises.d.ts": {
+        "version": "bdaf554ae2d9d09e2a42f58a29ef7f80e5b5c1d7b96bfb717243dc91a477216e",
+        "signature": "bdaf554ae2d9d09e2a42f58a29ef7f80e5b5c1d7b96bfb717243dc91a477216e",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/http.d.ts": {
+        "version": "ea194ae7fee69ab77ee0ff7b7f35227eb09515583f6c08988a59fa65661af990",
+        "signature": "ea194ae7fee69ab77ee0ff7b7f35227eb09515583f6c08988a59fa65661af990",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/http2.d.ts": {
+        "version": "321ea733ae7f611077a2d7b4bc378ac4a6b7e365e1a51c71a7e5b2818e1e310a",
+        "signature": "321ea733ae7f611077a2d7b4bc378ac4a6b7e365e1a51c71a7e5b2818e1e310a",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/https.d.ts": {
+        "version": "13257840c0850d4ebd7c2b17604a9e006f752de76c2400ebc752bc465c330452",
+        "signature": "13257840c0850d4ebd7c2b17604a9e006f752de76c2400ebc752bc465c330452",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/inspector.d.ts": {
+        "version": "42176966283d3835c34278b9b5c0f470d484c0c0c6a55c20a2c916a1ce69b6e8",
+        "signature": "42176966283d3835c34278b9b5c0f470d484c0c0c6a55c20a2c916a1ce69b6e8",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/module.d.ts": {
+        "version": "0cff7901aedfe78e314f7d44088f07e2afa1b6e4f0473a4169b8456ca2fb245d",
+        "signature": "0cff7901aedfe78e314f7d44088f07e2afa1b6e4f0473a4169b8456ca2fb245d",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/net.d.ts": {
+        "version": "ae7b9d7ab1652cc1866ba6e269d0eeaf1708d07327714124ed2cbd059f5e4766",
+        "signature": "ae7b9d7ab1652cc1866ba6e269d0eeaf1708d07327714124ed2cbd059f5e4766",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/os.d.ts": {
+        "version": "69640cc2e76dad52daeb9914e6b70c5c9a5591a3a65190a2d3ea432cf0015e16",
+        "signature": "69640cc2e76dad52daeb9914e6b70c5c9a5591a3a65190a2d3ea432cf0015e16",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/path.d.ts": {
+        "version": "21e64a125f65dff99cc3ed366c96e922b90daed343eb52ecdace5f220401dcda",
+        "signature": "21e64a125f65dff99cc3ed366c96e922b90daed343eb52ecdace5f220401dcda",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/perf_hooks.d.ts": {
+        "version": "f25b17702bd5d9e1a21e223863d09774197e0832a0534ba12bd7558bcc8548f4",
+        "signature": "f25b17702bd5d9e1a21e223863d09774197e0832a0534ba12bd7558bcc8548f4",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/process.d.ts": {
+        "version": "b0b00cf2e8107ab671243a73d2fbd6296a853bebe3fcfaaca293f65aaa245eaf",
+        "signature": "b0b00cf2e8107ab671243a73d2fbd6296a853bebe3fcfaaca293f65aaa245eaf",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/@types/node/punycode.d.ts": {
+        "version": "7f77304372efe3c9967e5f9ea2061f1b4bf41dc3cda3c83cdd676f2e5af6b7e6",
+        "signature": "7f77304372efe3c9967e5f9ea2061f1b4bf41dc3cda3c83cdd676f2e5af6b7e6",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/querystring.d.ts": {
+        "version": "992c6f6be16c0a1d2eec13ece33adeea2c747ba27fcd078353a8f4bb5b4fea58",
+        "signature": "992c6f6be16c0a1d2eec13ece33adeea2c747ba27fcd078353a8f4bb5b4fea58",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/readline.d.ts": {
+        "version": "3b790d08129aca55fd5ae1672d1d26594147ac0d5f2eedc30c7575eb18daef7e",
+        "signature": "3b790d08129aca55fd5ae1672d1d26594147ac0d5f2eedc30c7575eb18daef7e",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/repl.d.ts": {
+        "version": "a6b0abdb67d63ebe964ba5fee31bc3daf10c12eecd46b24d778426010c04c67e",
+        "signature": "a6b0abdb67d63ebe964ba5fee31bc3daf10c12eecd46b24d778426010c04c67e",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/stream.d.ts": {
+        "version": "e7b5a3f40f19d9eea71890c70dfb37ac5dd82cbffe5f95bc8f23c536455732d0",
+        "signature": "e7b5a3f40f19d9eea71890c70dfb37ac5dd82cbffe5f95bc8f23c536455732d0",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/string_decoder.d.ts": {
+        "version": "4fd3c4debadce3e9ab9dec3eb45f7f5e2e3d4ad65cf975a6d938d883cfb25a50",
+        "signature": "4fd3c4debadce3e9ab9dec3eb45f7f5e2e3d4ad65cf975a6d938d883cfb25a50",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/timers.d.ts": {
+        "version": "0953427f9c2498f71dd912fdd8a81b19cf6925de3e1ad67ab9a77b9a0f79bf0b",
+        "signature": "0953427f9c2498f71dd912fdd8a81b19cf6925de3e1ad67ab9a77b9a0f79bf0b",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/tls.d.ts": {
+        "version": "f89a6d56f0267f6e73c707f8a89d2f38e9928e10bfa505f39a4f4bf954093aee",
+        "signature": "f89a6d56f0267f6e73c707f8a89d2f38e9928e10bfa505f39a4f4bf954093aee",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/trace_events.d.ts": {
+        "version": "7df562288f949945cf69c21cd912100c2afedeeb7cdb219085f7f4b46cb7dde4",
+        "signature": "7df562288f949945cf69c21cd912100c2afedeeb7cdb219085f7f4b46cb7dde4",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/tty.d.ts": {
+        "version": "9d16690485ff1eb4f6fc57aebe237728fd8e03130c460919da3a35f4d9bd97f5",
+        "signature": "9d16690485ff1eb4f6fc57aebe237728fd8e03130c460919da3a35f4d9bd97f5",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/url.d.ts": {
+        "version": "dcc6910d95a3625fd2b0487fda055988e46ab46c357a1b3618c27b4a8dd739c9",
+        "signature": "dcc6910d95a3625fd2b0487fda055988e46ab46c357a1b3618c27b4a8dd739c9",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/util.d.ts": {
+        "version": "e649840284bab8c4d09cadc125cd7fbde7529690cc1a0881872b6a9cd202819b",
+        "signature": "e649840284bab8c4d09cadc125cd7fbde7529690cc1a0881872b6a9cd202819b",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/v8.d.ts": {
+        "version": "a364b4a8a015ae377052fa4fac94204d79a69d879567f444c7ceff1b7a18482d",
+        "signature": "a364b4a8a015ae377052fa4fac94204d79a69d879567f444c7ceff1b7a18482d",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/vm.d.ts": {
+        "version": "60c9e27816ec8ac8df7240598bb086e95b47edfb454c5cbf4003c812e0ed6e39",
+        "signature": "60c9e27816ec8ac8df7240598bb086e95b47edfb454c5cbf4003c812e0ed6e39",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/worker_threads.d.ts": {
+        "version": "6c63cb179eda2be5ab45dc146fa4151bec8ce4781986935fe40adfc69cbbf214",
+        "signature": "6c63cb179eda2be5ab45dc146fa4151bec8ce4781986935fe40adfc69cbbf214",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/zlib.d.ts": {
+        "version": "4926467de88a92a4fc9971d8c6f21b91eca1c0e7fc2a46cc4638ab9440c73875",
+        "signature": "4926467de88a92a4fc9971d8c6f21b91eca1c0e7fc2a46cc4638ab9440c73875",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/globals.global.d.ts": {
+        "version": "2708349d5a11a5c2e5f3a0765259ebe7ee00cdcc8161cb9990cb4910328442a1",
+        "signature": "2708349d5a11a5c2e5f3a0765259ebe7ee00cdcc8161cb9990cb4910328442a1",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/@types/node/wasi.d.ts": {
+        "version": "4e0a4d84b15692ea8669fe4f3d05a4f204567906b1347da7a58b75f45bae48d3",
+        "signature": "4e0a4d84b15692ea8669fe4f3d05a4f204567906b1347da7a58b75f45bae48d3",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/ts3.6/base.d.ts": {
+        "version": "ae68a04912ee5a0f589276f9ec60b095f8c40d48128a4575b3fdd7d93806931c",
+        "signature": "ae68a04912ee5a0f589276f9ec60b095f8c40d48128a4575b3fdd7d93806931c",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/assert.d.ts": {
+        "version": "b3593bd345ebea5e4d0a894c03251a3774b34df3d6db57075c18e089a599ba76",
+        "signature": "b3593bd345ebea5e4d0a894c03251a3774b34df3d6db57075c18e089a599ba76",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/base.d.ts": {
+        "version": "e61a21e9418f279bc480394a94d1581b2dee73747adcbdef999b6737e34d721b",
+        "signature": "e61a21e9418f279bc480394a94d1581b2dee73747adcbdef999b6737e34d721b",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/node/index.d.ts": {
+        "version": "49daf80661034e07d919f1c716aef69324e34d18a63a282f8100f52c961b58a7",
+        "signature": "49daf80661034e07d919f1c716aef69324e34d18a63a282f8100f52c961b58a7",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/bl/index.d.ts": {
+        "version": "5b6c388527bb7a67d8a189f9b73b787d9f4b0b85c7269e6f73f4cd133f50c2b8",
+        "signature": "5b6c388527bb7a67d8a189f9b73b787d9f4b0b85c7269e6f73f4cd133f50c2b8",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/libp2p-interfaces/dist/src/stream-muxer/types.d.ts": {
+        "version": "371d1dc34ba54fbed25d5789be85f740cfe25138bab905d63d3078a277631f4b",
+        "signature": "371d1dc34ba54fbed25d5789be85f740cfe25138bab905d63d3078a277631f4b",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/libp2p-interfaces/dist/src/connection/status.d.ts": {
+        "version": "dc52aee8a09306b5a027085637c4d9222e3db05fc4c13c6a142dac36636c76fb",
+        "signature": "dc52aee8a09306b5a027085637c4d9222e3db05fc4c13c6a142dac36636c76fb",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/libp2p-interfaces/dist/src/connection/connection.d.ts": {
+        "version": "df608b6b59e7b10cdfe4dfc182173e463992fe83c84c7b4a0ba522ce37e54a44",
+        "signature": "df608b6b59e7b10cdfe4dfc182173e463992fe83c84c7b4a0ba522ce37e54a44",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/libp2p/dist/src/connection-manager/index.d.ts": {
+        "version": "19bb9bd832d978fdd5759975b46c8a90e67ad4cd6b99b0d02d50bff1f570e286",
+        "signature": "19bb9bd832d978fdd5759975b46c8a90e67ad4cd6b99b0d02d50bff1f570e286",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/bignumber.js/bignumber.d.ts": {
+        "version": "1d7d9e42cb2cc36dfc7ce35755ce67d5ff0f4a2ef72d3019f4c461bfd22123da",
+        "signature": "1d7d9e42cb2cc36dfc7ce35755ce67d5ff0f4a2ef72d3019f4c461bfd22123da",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@vascosantos/moving-average/index.d.ts": {
+        "version": "7f8f6d3576ead7698d78d3849b5cd55b79f923e5589e14a2cc5270b4d0c9fe96",
+        "signature": "7f8f6d3576ead7698d78d3849b5cd55b79f923e5589e14a2cc5270b4d0c9fe96",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/libp2p/dist/src/metrics/stats.d.ts": {
+        "version": "fce16e032e6eac74b73ebbca6ed4850aee167fbac8468c17874945430652235e",
+        "signature": "fce16e032e6eac74b73ebbca6ed4850aee167fbac8468c17874945430652235e",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/libp2p-interfaces/dist/src/transport/types.d.ts": {
+        "version": "ac4cc102b64184d25c73f5fa6dde8e44665ed9072623b8216927c70c42e0cbc6",
+        "signature": "ac4cc102b64184d25c73f5fa6dde8e44665ed9072623b8216927c70c42e0cbc6",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/libp2p/dist/src/metrics/index.d.ts": {
+        "version": "22830aca4105701980dfa313a0f0fd91a9553f16de16718e9b662037d57d315a",
+        "signature": "22830aca4105701980dfa313a0f0fd91a9553f16de16718e9b662037d57d315a",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/libp2p/dist/src/keychain/cms.d.ts": {
+        "version": "7641f74de89c789212a0eb9510ff7e8524d3f4e0c81c4abfa76cc82eb8a3c126",
+        "signature": "7641f74de89c789212a0eb9510ff7e8524d3f4e0c81c4abfa76cc82eb8a3c126",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/interface-store/dist/src/index.d.ts": {
+        "version": "3cd3c66195e99a6782103e8f82f79564d0a841069cd8333ab773d437136fe608",
+        "signature": "3cd3c66195e99a6782103e8f82f79564d0a841069cd8333ab773d437136fe608",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/multibase/src/types.d.ts": {
+        "version": "40166c5a74c5420962d2f223211c3b99be001a5b60a23828d1c9eb7a768a877f",
+        "signature": "40166c5a74c5420962d2f223211c3b99be001a5b60a23828d1c9eb7a768a877f",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/uint8arrays/dist/to-string.d.ts": {
+        "version": "77e3c2c86cddf01b6ad9a37b1b770139c6141965169f707ef484b57da71ca4de",
+        "signature": "77e3c2c86cddf01b6ad9a37b1b770139c6141965169f707ef484b57da71ca4de",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/interface-datastore/dist/src/key.d.ts": {
+        "version": "10e4318dbdbe71188802e8b280280b72fafc18c765de25ee54a063d45e930b61",
+        "signature": "10e4318dbdbe71188802e8b280280b72fafc18c765de25ee54a063d45e930b61",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/interface-datastore/dist/src/types.d.ts": {
+        "version": "5563a13d3027ec17d5618f6c38fe1c0451a5fbe3f5f6484ff136304e43166ffe",
+        "signature": "5563a13d3027ec17d5618f6c38fe1c0451a5fbe3f5f6484ff136304e43166ffe",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/interface-datastore/dist/src/adapter.d.ts": {
+        "version": "49f0472dc269b78ec9f722ea3695905ea7a355abe4f0aed2b29eddaa6b8554f3",
+        "signature": "49f0472dc269b78ec9f722ea3695905ea7a355abe4f0aed2b29eddaa6b8554f3",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/interface-datastore/dist/src/memory.d.ts": {
+        "version": "13e3bcbf59f19660ded66c9d60582d51d51e519e5bbe7271183609393153648c",
+        "signature": "13e3bcbf59f19660ded66c9d60582d51d51e519e5bbe7271183609393153648c",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/ipfs-utils/dist/src/temp-dir.d.ts": {
+        "version": "7eec2e1ff90f70fe47662a8ed1c4226258d05fa2c00af691caa6811930c31f55",
+        "signature": "7eec2e1ff90f70fe47662a8ed1c4226258d05fa2c00af691caa6811930c31f55",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/interface-datastore/dist/src/utils.d.ts": {
+        "version": "449d14ebae24ed7a986a7b2bce3a9da346c5dbe4bc6386323354b19432a66899",
+        "signature": "449d14ebae24ed7a986a7b2bce3a9da346c5dbe4bc6386323354b19432a66899",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/err-code/dist/index.d.ts": {
+        "version": "a02a19deaa2c497d36c136459dd2561b57ebb22075ac0d6aad176430a8639aa1",
+        "signature": "a02a19deaa2c497d36c136459dd2561b57ebb22075ac0d6aad176430a8639aa1",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/interface-datastore/dist/src/errors.d.ts": {
+        "version": "c41571b0d5de22915f789ed3ece336e2bfa3ef1a02e35d3ee6e355e9945a89e3",
+        "signature": "c41571b0d5de22915f789ed3ece336e2bfa3ef1a02e35d3ee6e355e9945a89e3",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/interface-datastore/dist/src/index.d.ts": {
+        "version": "0cefa689eca8be838da1f5970352e12c69d17997acb4f45f632ac01949cd468c",
+        "signature": "0cefa689eca8be838da1f5970352e12c69d17997acb4f45f632ac01949cd468c",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/libp2p/dist/src/keychain/index.d.ts": {
+        "version": "5595390ba2b68b24652ec2bfbfb53b3e56af7051a7d7e1071f923c289fc8b662",
+        "signature": "5595390ba2b68b24652ec2bfbfb53b3e56af7051a7d7e1071f923c289fc8b662",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/libp2p-interfaces/dist/src/connection/index.d.ts": {
+        "version": "d237f60a3cb3d5db2771db6eb77c6822b663c2ad823fc74597dd7f454585440d",
+        "signature": "d237f60a3cb3d5db2771db6eb77c6822b663c2ad823fc74597dd7f454585440d",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/libp2p-interfaces/dist/src/crypto/types.d.ts": {
+        "version": "664389cb598ba65bc3e47f44306399e48d8c41a0957fa25be6df52adf8cce5d3",
+        "signature": "664389cb598ba65bc3e47f44306399e48d8c41a0957fa25be6df52adf8cce5d3",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/libp2p/dist/src/pnet/errors.d.ts": {
+        "version": "da1217e76d97391bdfe5b49e00280def199c9f24aea3215e5ecf7b2f7efb0051",
+        "signature": "da1217e76d97391bdfe5b49e00280def199c9f24aea3215e5ecf7b2f7efb0051",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/libp2p/dist/src/pnet/key-generator.d.ts": {
+        "version": "73d255c2287056b2ec6e63b58d16b436fa09d147cfd6090110b68489f4fd1448",
+        "signature": "73d255c2287056b2ec6e63b58d16b436fa09d147cfd6090110b68489f4fd1448",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/libp2p/dist/src/pnet/index.d.ts": {
+        "version": "3c9df6a8f3946478ee2fe55aa1c42ca97c907be3e7fe32b9b65eff2c3b6e3c94",
+        "signature": "3c9df6a8f3946478ee2fe55aa1c42ca97c907be3e7fe32b9b65eff2c3b6e3c94",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/libp2p/dist/src/upgrader.d.ts": {
+        "version": "f27c77bdf8b4e180df453572f65e2cdd79a3f36483d89b9034cfe9cf7228ed94",
+        "signature": "f27c77bdf8b4e180df453572f65e2cdd79a3f36483d89b9034cfe9cf7228ed94",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/libp2p/dist/src/transport-manager.d.ts": {
+        "version": "b1f1d98e0f58ba1e00f2294dd4bbf68d6c700e47fb729462726321cfdeeb5935",
+        "signature": "b1f1d98e0f58ba1e00f2294dd4bbf68d6c700e47fb729462726321cfdeeb5935",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/libp2p/dist/src/nat-manager.d.ts": {
+        "version": "f8a70857f5bc1dafb82812587e42e2a0d6f366915698a97b2f23620edeb78f7a",
+        "signature": "f8a70857f5bc1dafb82812587e42e2a0d6f366915698a97b2f23620edeb78f7a",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/libp2p-interfaces/dist/src/topology/index.d.ts": {
+        "version": "5a04f089756d736b6d72996bccb2e55be0310e65f8244d4b6feb0fc627b5f7f3",
+        "signature": "5a04f089756d736b6d72996bccb2e55be0310e65f8244d4b6feb0fc627b5f7f3",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/libp2p/dist/src/registrar.d.ts": {
+        "version": "814d43bad874faf5ab5ee56be2a21b5005b54b8eefe6c35e3e7af0dd08d99284",
+        "signature": "814d43bad874faf5ab5ee56be2a21b5005b54b8eefe6c35e3e7af0dd08d99284",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/libp2p/dist/src/dialer/dial-request.d.ts": {
+        "version": "f6c39c4f7aa1dac5db5890f1fb3638e085985f24bff5ca430a629b8ae40de43a",
+        "signature": "f6c39c4f7aa1dac5db5890f1fb3638e085985f24bff5ca430a629b8ae40de43a",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/libp2p/dist/src/dialer/index.d.ts": {
+        "version": "4515d034a352b92a401ebc88f72186484bc27c71f86e684c20558370c1130f4a",
+        "signature": "4515d034a352b92a401ebc88f72186484bc27c71f86e684c20558370c1130f4a",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/libp2p/dist/src/circuit/auto-relay.d.ts": {
+        "version": "a58d4d25f6866343e97751ada2d73b497e05b12d45b60f44560c724d5e2fdbb4",
+        "signature": "a58d4d25f6866343e97751ada2d73b497e05b12d45b60f44560c724d5e2fdbb4",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/libp2p/dist/src/circuit/index.d.ts": {
+        "version": "5376fdfc2def97a087e03703a3151fd220e1c6d05e899ece164f158063ca027e",
+        "signature": "5376fdfc2def97a087e03703a3151fd220e1c6d05e899ece164f158063ca027e",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/protobufjs/index.d.ts": {
+        "version": "1558c642e03689d42843e7b047b9c20e77ee09ab388ff854484db5dcfbed11da",
+        "signature": "1558c642e03689d42843e7b047b9c20e77ee09ab388ff854484db5dcfbed11da",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/libp2p/dist/src/identify/message.d.ts": {
+        "version": "738d0c55af50e2b3e60a2ae99e6ae2258b16740c151e64c4c30f61b6b190d3c8",
+        "signature": "738d0c55af50e2b3e60a2ae99e6ae2258b16740c151e64c4c30f61b6b190d3c8",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/libp2p/dist/src/identify/consts.d.ts": {
+        "version": "afa0b30d2c69a1426dcb78e1af60bc7d008bc3adc01709de00b5250926820a98",
+        "signature": "afa0b30d2c69a1426dcb78e1af60bc7d008bc3adc01709de00b5250926820a98",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/libp2p/dist/src/identify/index.d.ts": {
+        "version": "2589d999e97f7c594a83cdb76c1d911ade5d273085b95edf2c04f7d814e9ba2d",
+        "signature": "2589d999e97f7c594a83cdb76c1d911ade5d273085b95edf2c04f7d814e9ba2d",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/libp2p-interfaces/dist/src/peer-routing/types.d.ts": {
+        "version": "2111d10b52833d84d04125929071075f777bd74e23867693db2078f98c28c95c",
+        "signature": "2111d10b52833d84d04125929071075f777bd74e23867693db2078f98c28c95c",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/libp2p/dist/src/peer-routing.d.ts": {
+        "version": "0c4ec639d5349f3032e7fd3cff552a694c51da5aea912ef84d8686db305a9650",
+        "signature": "0c4ec639d5349f3032e7fd3cff552a694c51da5aea912ef84d8686db305a9650",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/libp2p-interfaces/dist/src/content-routing/types.d.ts": {
+        "version": "788191239121684903345b47875048929a053299c0b9712dd8d5f94832083ff4",
+        "signature": "788191239121684903345b47875048929a053299c0b9712dd8d5f94832083ff4",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/libp2p/dist/src/content-routing/index.d.ts": {
+        "version": "81656225439f3aa06ed1b6f8cc933061872adbea521de7815b1cb3dec4b6cebe",
+        "signature": "81656225439f3aa06ed1b6f8cc933061872adbea521de7815b1cb3dec4b6cebe",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/libp2p/dist/src/peer-store/persistent/index.d.ts": {
+        "version": "19ca74571760426a0779f9c31f8b930f953ca93a674772f149ef5ea7da561f11",
+        "signature": "19ca74571760426a0779f9c31f8b930f953ca93a674772f149ef5ea7da561f11",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/libp2p-utils/dist/src/address-sort.d.ts": {
+        "version": "a7f6a5d34a0b86f1fcabae01adf48819c8debef8c4b962fcdb6f0c9716f426be",
+        "signature": "a7f6a5d34a0b86f1fcabae01adf48819c8debef8c4b962fcdb6f0c9716f426be",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/debug/index.d.ts": {
+        "version": "3cf5f191d75bbe7c92f921e5ae12004ac672266e2be2ece69f40b1d6b1b678f9",
+        "signature": "3cf5f191d75bbe7c92f921e5ae12004ac672266e2be2ece69f40b1d6b1b678f9",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/it-pushable/index.d.ts": {
+        "version": "f9c5e7bae060d2f1cb622b3d0192ca87fcbb29daf0f92d5ed62a63ce6f079354",
+        "signature": "f9c5e7bae060d2f1cb622b3d0192ca87fcbb29daf0f92d5ed62a63ce6f079354",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/libp2p-interfaces/dist/src/pubsub/peer-streams.d.ts": {
+        "version": "ad0e5989a858b086db05ddc87009ee1836fe5e974799bcb06ad94668c9194aa3",
+        "signature": "ad0e5989a858b086db05ddc87009ee1836fe5e974799bcb06ad94668c9194aa3",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/libp2p-interfaces/dist/src/pubsub/message/rpc.d.ts": {
+        "version": "e2a762359f60201dae5bb04987b6d71cd7cba44332e4fdcd2a9c188dfdf4c892",
+        "signature": "e2a762359f60201dae5bb04987b6d71cd7cba44332e4fdcd2a9c188dfdf4c892",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/libp2p-interfaces/dist/src/pubsub/utils.d.ts": {
+        "version": "d1e219288c9629a0ebc2579f38bec9123ba3368f2f680980a353d9fddc429325",
+        "signature": "d1e219288c9629a0ebc2579f38bec9123ba3368f2f680980a353d9fddc429325",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/libp2p-interfaces/dist/src/pubsub/signature-policy.d.ts": {
+        "version": "45189088c8e30928d71260ccbcae8e6d5a2fd6c0b757213c610819655dec449e",
+        "signature": "45189088c8e30928d71260ccbcae8e6d5a2fd6c0b757213c610819655dec449e",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/libp2p-interfaces/dist/src/pubsub/index.d.ts": {
+        "version": "c350a311eab3d6f84a166e08546e70d4a11a5302bb89d898a8e47d6b9d9060f4",
+        "signature": "c350a311eab3d6f84a166e08546e70d4a11a5302bb89d898a8e47d6b9d9060f4",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/libp2p-interfaces/dist/src/peer-discovery/types.d.ts": {
+        "version": "08eda2bbf5eafa17b1da2c42307c359e5cdcaaf566b8e0f846651520bdc9f6cc",
+        "signature": "08eda2bbf5eafa17b1da2c42307c359e5cdcaaf566b8e0f846651520bdc9f6cc",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/libp2p-interfaces/dist/src/types.d.ts": {
+        "version": "9314084c7fcf9f43cec29910454799da282484c8965272e150b849f27d486134",
+        "signature": "9314084c7fcf9f43cec29910454799da282484c8965272e150b849f27d486134",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/libp2p/dist/src/index.d.ts": {
+        "version": "2563ac9ad140edd9ca7b620c69173939752d3e5e11501bef306d9994e1f41e3b",
+        "signature": "2563ac9ad140edd9ca7b620c69173939752d3e5e11501bef306d9994e1f41e3b",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/buffer/index.d.ts": {
+        "version": "4967529644e391115ca5592184d4b63980569adf60ee685f968fd59ab1557188",
+        "signature": "4967529644e391115ca5592184d4b63980569adf60ee685f968fd59ab1557188",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/libp2p-noise/dist/src/@types/basic.d.ts": {
+        "version": "8859be2c56a5ea30dcfd7a7061b02a91f020dbd5862e68dab5665d12041d0bbe",
+        "signature": "8859be2c56a5ea30dcfd7a7061b02a91f020dbd5862e68dab5665d12041d0bbe",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/it-pb-rpc/src/index.d.ts": {
+        "version": "a6ee96a0835f6c2864ea37e501d163f636d8dc2ced96fac876f3f3ef9f945979",
+        "signature": "a6ee96a0835f6c2864ea37e501d163f636d8dc2ced96fac876f3f3ef9f945979",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/libp2p-noise/dist/src/@types/libp2p.d.ts": {
+        "version": "b8ba155119c8ff39d23a234c5fb4aa442ab15c4f5ab902bfd40a760a7c8cab6b",
+        "signature": "b8ba155119c8ff39d23a234c5fb4aa442ab15c4f5ab902bfd40a760a7c8cab6b",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/libp2p-noise/dist/src/noise.d.ts": {
+        "version": "d02cd0592bd46cbe9e17663e996aa90fdaa4456e6f5ec3b7b7780090162154e5",
+        "signature": "d02cd0592bd46cbe9e17663e996aa90fdaa4456e6f5ec3b7b7780090162154e5",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/libp2p/dist/src/ping/index.d.ts": {
+        "version": "8f36afa208856bf02d931b063d703686432dbe7b34da8d0fc5d65eb3e3e9e318",
+        "signature": "8f36afa208856bf02d931b063d703686432dbe7b34da8d0fc5d65eb3e3e9e318",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/it-concat/index.d.ts": {
+        "version": "50219bf139c55f2d0ca6131601690d88af7e32a4f48d1847d11e4461d692e858",
+        "signature": "50219bf139c55f2d0ca6131601690d88af7e32a4f48d1847d11e4461d692e858",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/it-length-prefixed/dist/src/types.d.ts": {
+        "version": "19268f157a78d6040d07356daa38fb5f2c5696b7bd622128e8eb9b06abb2d6de",
+        "signature": "19268f157a78d6040d07356daa38fb5f2c5696b7bd622128e8eb9b06abb2d6de",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/it-length-prefixed/dist/src/encode.d.ts": {
+        "version": "5b42e8b9a7ec700028447427650fced6d5b877aa6c346468f1ee8cf438899937",
+        "signature": "5b42e8b9a7ec700028447427650fced6d5b877aa6c346468f1ee8cf438899937",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/it-length-prefixed/dist/src/decode.d.ts": {
+        "version": "f98350c7d1e0cf9c914389ee6f8d3a8ed64fe3863ab60f37bbd3c13242e40bd2",
+        "signature": "f98350c7d1e0cf9c914389ee6f8d3a8ed64fe3863ab60f37bbd3c13242e40bd2",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/it-length-prefixed/dist/src/index.d.ts": {
+        "version": "561515e21dc78b22d78e2ef6db9bc8cea39597964c8370488105f4f65960b442",
+        "signature": "561515e21dc78b22d78e2ef6db9bc8cea39597964c8370488105f4f65960b442",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/it-pipe/index.d.ts": {
+        "version": "b413b4ac5cc2c9ffeb8d6b9141abf53568e79751f705886a8c34a6ecf1814da1",
+        "signature": "b413b4ac5cc2c9ffeb8d6b9141abf53568e79751f705886a8c34a6ecf1814da1",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/long/index.d.ts": {
+        "version": "e8465811693dfe4e96ef2b3dffda539d6edfe896961b7af37b44db2c0e48532b",
+        "signature": "e8465811693dfe4e96ef2b3dffda539d6edfe896961b7af37b44db2c0e48532b",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/protobufjs/minimal.d.ts": {
+        "version": "932cade1c5802123b5831f332ad8a6297f0f7d14d0ee04f5a774408f393e2200",
+        "signature": "932cade1c5802123b5831f332ad8a6297f0f7d14d0ee04f5a774408f393e2200",
+        "affectsGlobalScope": false
+      },
+      "../src/proto/waku/v2/message.ts": {
+        "version": "e5cd3c41125c64ad6910878182b4889fcf5bfa441b06ecb339d0e535787030d4",
+        "signature": "a436413ae51cd3e22f35d54ae278cb4547392d25e96b3641e37ffc5b37668ba6",
+        "affectsGlobalScope": false
+      },
+      "../src/proto/waku/v2/light_push.ts": {
+        "version": "fcfb40774d2666d3b67ca309e751439873ab74259acb2a06f525b5a4cda5b161",
+        "signature": "10b6873f16067114806890c72c2861d9676470bef63de0d89c1153a13b33ea3a",
+        "affectsGlobalScope": false
+      },
+      "../src/lib/select_peer.ts": {
+        "version": "f645179a3b7bfdd693901fda3b400831d29cba475b50f5a7f599ae115aa68af7",
+        "signature": "ca6cc3742e62684066609ffdf2b298e5b9d9ac0b064b114a98b24454b14e0ca5",
+        "affectsGlobalScope": false
+      },
+      "../src/lib/waku_message.ts": {
+        "version": "3bfe8e737ceb91925fb1e78b522dd94ddde61caeefbfedf31a8ca073ff6a844e",
+        "signature": "19ffe1f91f8e99402e0dc28106760b32ab78b47b0f5051fb88cf452d0a4da5e9",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/libp2p-gossipsub/node_modules/libp2p-interfaces/dist/src/stream-muxer/types.d.ts": {
+        "version": "371d1dc34ba54fbed25d5789be85f740cfe25138bab905d63d3078a277631f4b",
+        "signature": "371d1dc34ba54fbed25d5789be85f740cfe25138bab905d63d3078a277631f4b",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/libp2p-gossipsub/node_modules/libp2p-interfaces/dist/src/pubsub/peer-streams.d.ts": {
+        "version": "ad0e5989a858b086db05ddc87009ee1836fe5e974799bcb06ad94668c9194aa3",
+        "signature": "ad0e5989a858b086db05ddc87009ee1836fe5e974799bcb06ad94668c9194aa3",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/libp2p-gossipsub/node_modules/libp2p-interfaces/dist/src/pubsub/message/rpc.d.ts": {
+        "version": "e2a762359f60201dae5bb04987b6d71cd7cba44332e4fdcd2a9c188dfdf4c892",
+        "signature": "e2a762359f60201dae5bb04987b6d71cd7cba44332e4fdcd2a9c188dfdf4c892",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/libp2p-gossipsub/node_modules/libp2p-interfaces/dist/src/pubsub/utils.d.ts": {
+        "version": "d1e219288c9629a0ebc2579f38bec9123ba3368f2f680980a353d9fddc429325",
+        "signature": "d1e219288c9629a0ebc2579f38bec9123ba3368f2f680980a353d9fddc429325",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/libp2p-gossipsub/node_modules/libp2p-interfaces/dist/src/pubsub/signature-policy.d.ts": {
+        "version": "45189088c8e30928d71260ccbcae8e6d5a2fd6c0b757213c610819655dec449e",
+        "signature": "45189088c8e30928d71260ccbcae8e6d5a2fd6c0b757213c610819655dec449e",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/libp2p-gossipsub/node_modules/libp2p-interfaces/dist/src/connection/status.d.ts": {
+        "version": "dc52aee8a09306b5a027085637c4d9222e3db05fc4c13c6a142dac36636c76fb",
+        "signature": "dc52aee8a09306b5a027085637c4d9222e3db05fc4c13c6a142dac36636c76fb",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/libp2p-gossipsub/node_modules/libp2p-interfaces/dist/src/connection/connection.d.ts": {
+        "version": "df608b6b59e7b10cdfe4dfc182173e463992fe83c84c7b4a0ba522ce37e54a44",
+        "signature": "df608b6b59e7b10cdfe4dfc182173e463992fe83c84c7b4a0ba522ce37e54a44",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/libp2p-gossipsub/node_modules/libp2p-interfaces/dist/src/pubsub/index.d.ts": {
+        "version": "c350a311eab3d6f84a166e08546e70d4a11a5302bb89d898a8e47d6b9d9060f4",
+        "signature": "c350a311eab3d6f84a166e08546e70d4a11a5302bb89d898a8e47d6b9d9060f4",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/libp2p-gossipsub/src/interfaces.d.ts": {
+        "version": "5683af198c954c45662c901e7a995db13d229d64718f8318027ae226c1578520",
+        "signature": "5683af198c954c45662c901e7a995db13d229d64718f8318027ae226c1578520",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/libp2p-gossipsub/src/message-cache.d.ts": {
+        "version": "1c19a4381ac9fd18a257de81826adfd8e89b84e9a023dbc69c11c91581ad2701",
+        "signature": "1c19a4381ac9fd18a257de81826adfd8e89b84e9a023dbc69c11c91581ad2701",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/libp2p-gossipsub/src/message/rpc.d.ts": {
+        "version": "4684d55041c98df222fe8e60140e5526353f182461777fb13e6f9afbfd37b97b",
+        "signature": "4684d55041c98df222fe8e60140e5526353f182461777fb13e6f9afbfd37b97b",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/libp2p-gossipsub/src/heartbeat.d.ts": {
+        "version": "fcc741ed31221b9d122fb1e66f26a966ba36a85ca130698c67b0c8d4b98a4a6a",
+        "signature": "fcc741ed31221b9d122fb1e66f26a966ba36a85ca130698c67b0c8d4b98a4a6a",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/libp2p-gossipsub/src/score/peer-score-params.d.ts": {
+        "version": "58ffa3cf9ba4a92affd919dbf7d3e0ee88ff8d2d5dfd6cebed49b6131f5b2ae4",
+        "signature": "58ffa3cf9ba4a92affd919dbf7d3e0ee88ff8d2d5dfd6cebed49b6131f5b2ae4",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/libp2p-gossipsub/src/score/peer-score-thresholds.d.ts": {
+        "version": "a1b60bd2328318dcbec30bdf529dad31a13315ff2df60c8bd71630c58a575b06",
+        "signature": "a1b60bd2328318dcbec30bdf529dad31a13315ff2df60c8bd71630c58a575b06",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/libp2p-gossipsub/src/score/peer-stats.d.ts": {
+        "version": "e1fe1c69619e2543f53c5add60b82c5dff44105ac6f790590d971f42ca013ccb",
+        "signature": "e1fe1c69619e2543f53c5add60b82c5dff44105ac6f790590d971f42ca013ccb",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/libp2p-gossipsub/src/score/message-deliveries.d.ts": {
+        "version": "e6ca6eed4bf6585c952f32df89203a36d411769c15f7305076d204209e4a7d1f",
+        "signature": "e6ca6eed4bf6585c952f32df89203a36d411769c15f7305076d204209e4a7d1f",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/libp2p-gossipsub/src/score/peer-score.d.ts": {
+        "version": "6c044d76e2c329a015fe74c95b569fb026002d4b7e6cd99dcc40b1c6e502cf96",
+        "signature": "6c044d76e2c329a015fe74c95b569fb026002d4b7e6cd99dcc40b1c6e502cf96",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/libp2p-gossipsub/src/score/index.d.ts": {
+        "version": "70b00656b71b9e7cf9eda755bb0a126af6f9da7773be486408446eb307e7f866",
+        "signature": "70b00656b71b9e7cf9eda755bb0a126af6f9da7773be486408446eb307e7f866",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/libp2p-gossipsub/src/tracer.d.ts": {
+        "version": "eb2819957c6c60d6c898084693bc474cf69c19b484aef35b9c2c7bce057f4c70",
+        "signature": "eb2819957c6c60d6c898084693bc474cf69c19b484aef35b9c2c7bce057f4c70",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/libp2p-gossipsub/src/index.d.ts": {
+        "version": "7b79b1b16d10067876bd6116f6be640fced704e9ac3695146d7e3a5c18488ae5",
+        "signature": "7b79b1b16d10067876bd6116f6be640fced704e9ac3695146d7e3a5c18488ae5",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/libp2p-gossipsub/src/utils/create-gossip-rpc.d.ts": {
+        "version": "cd4e9e58116624d7cb37572790404d199853043e33c70f1602ee30c32abb2d0e",
+        "signature": "cd4e9e58116624d7cb37572790404d199853043e33c70f1602ee30c32abb2d0e",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/libp2p-gossipsub/src/utils/shuffle.d.ts": {
+        "version": "d4614a294b02d061f789ed3e12f7c9e5febde07760e98f439fd91e2b40c85aee",
+        "signature": "d4614a294b02d061f789ed3e12f7c9e5febde07760e98f439fd91e2b40c85aee",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/libp2p-gossipsub/src/utils/has-gossip-protocol.d.ts": {
+        "version": "2254dcdecd01068333753bdb9ef8726618e939cc9d8c8b7ca95605f3b3e97a3d",
+        "signature": "2254dcdecd01068333753bdb9ef8726618e939cc9d8c8b7ca95605f3b3e97a3d",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/libp2p-gossipsub/src/utils/messageIdToString.d.ts": {
+        "version": "dda098fd2985bc54050b476ab1935faa1d4336306d565a34ac20a686f7e94057",
+        "signature": "dda098fd2985bc54050b476ab1935faa1d4336306d565a34ac20a686f7e94057",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/libp2p-gossipsub/src/utils/index.d.ts": {
+        "version": "5e22f74a36f76de32b9a94311fdc5e8243083b7298224387f4deeac887d3e4f1",
+        "signature": "5e22f74a36f76de32b9a94311fdc5e8243083b7298224387f4deeac887d3e4f1",
+        "affectsGlobalScope": false
+      },
+      "../src/lib/waku_relay/constants.ts": {
+        "version": "403900786e1442e537d2bfea4bdd754d22a40e4ea3bfafa429631bdba6073fc7",
+        "signature": "6c5ac5ea46c01da205d6b3fb67c69d09d6a209cb52e83c9f9651238f499cb012",
+        "affectsGlobalScope": false
+      },
+      "../src/lib/waku_relay/get_relay_peers.ts": {
+        "version": "fef85090fae497dce6a2ed16451a4e80ce281442336830d88f881bd410551922",
+        "signature": "6ee4a9c69a3927b577ab3b40fab84d73fcb78000f8076c4520219bbaadeda4e7",
+        "affectsGlobalScope": false
+      },
+      "../src/lib/waku_relay/relay_heartbeat.ts": {
+        "version": "7945afa5af77cd0f02ce31b63cfe70511c2e3082df8fb443a9f5289847fd0686",
+        "signature": "3014f01325ff550a0589022889aa76a96ba8889644e873774060b70e0b0d469b",
+        "affectsGlobalScope": false
+      },
+      "../src/lib/waku_relay/index.ts": {
+        "version": "f08b0928d80ca57da18ec9f4726b0748cec95baa5576c26f9f763ff653c07318",
+        "signature": "be92e71c2b70c2c055eaec761a010c67c5c40cd96df9141c88f9d376641f4668",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/uuid/index.d.ts": {
+        "version": "96b49a9de749afcf92b5bce1d8cc42cfae6816cdf5ea36584fd9256b8b2e5292",
+        "signature": "96b49a9de749afcf92b5bce1d8cc42cfae6816cdf5ea36584fd9256b8b2e5292",
+        "affectsGlobalScope": false
+      },
+      "../src/lib/waku_light_push/push_rpc.ts": {
+        "version": "5922cd77b1aa18dc455b0aa0ead5cfa914a0a4d223399036658375f8ce843491",
+        "signature": "43670fbe03e681819452b94512047eb4dee87cfe2effce75da49b5949cb03b62",
+        "affectsGlobalScope": false
+      },
+      "../src/lib/waku_light_push/index.ts": {
+        "version": "992b4b0ad92ccd8081338ba9eca442b41e7068ce7d85111b3a41a80cab48dd2d",
+        "signature": "965e22a8b8ff565fdd53b02b85cffdb6220860fcfcea11a8ce14b1034f0041db",
+        "affectsGlobalScope": false
+      },
+      "../src/proto/waku/v2/store.ts": {
+        "version": "315160802f9c322f4f2b22994351f937f7f9f45a3ac572bb41e68e3f0f292438",
+        "signature": "744bd9b871fafdc285f8a90e7378b85bd4d1d08a59944156499f537474762a07",
+        "affectsGlobalScope": false
+      },
+      "../src/lib/waku_store/history_rpc.ts": {
+        "version": "a476ba3d2983acda6c33ba6615239396f9807d9fda9971b572508267eb5d81b5",
+        "signature": "a163fac747cda4b9ab4f0501a23439afabad4e276cda63ae7d0981f6407460b7",
+        "affectsGlobalScope": false
+      },
+      "../src/lib/waku_store/index.ts": {
+        "version": "3c41d3fcd31072542e30f3c467caa975d7dc9b62d6caf3b65ff5f2ff1160c3fc",
+        "signature": "451651a15f115a6de0852b6d82fdf79e1cef4ac55b4bcfa6e48811f25185d887",
+        "affectsGlobalScope": false
+      },
+      "../src/lib/waku.ts": {
+        "version": "782fcd7b4d1367b421057916535b4a6832887bac820aeb6fc24248216799540c",
+        "signature": "99096e2cca589a1ee45b1c77876b44ff1d338bc2c88280c3682b50335ab6c686",
+        "affectsGlobalScope": false
+      },
+      "../src/proto/chat/v2/chat_message.ts": {
+        "version": "f5449fbbc25f1fdf386a6fce05f03354d10b7fced3a6c942acbc7e08baacac11",
+        "signature": "b4efbb17e07d09549e9356b036e351c3128ea22bec2cf3899a0b1c33e68c39c0",
+        "affectsGlobalScope": false
+      },
+      "../src/lib/chat_message/index.ts": {
+        "version": "896bf7069cb52c6368259e792ea1654da3e14b8f722c92a409c731c327aa86d5",
+        "signature": "4e4e7be0b4ff2308fdfc6e742aebc4e7e846950987142821344f4e9a7b7a1bd0",
+        "affectsGlobalScope": false
+      },
+      "../src/proto/index.ts": {
+        "version": "81c1b9c7fcc480763c3d5a703bc67c643d8ca63992170fc781994807e562add0",
+        "signature": "a8b0109e2fe25ef3bd1a3202d324900190531480b69e6d56a8a13a80b6734ddc",
+        "affectsGlobalScope": false
+      },
+      "../src/index.ts": {
+        "version": "c21c8e0ac842b4811ac354f71774897d385045d52c1bd4698f1950549681fba6",
+        "signature": "42f52e65e0b1df49515fe196bbfbb9465423cdf16a1067b19ba353f65eea5493",
+        "affectsGlobalScope": false
+      },
+      "../src/lib/delay.ts": {
+        "version": "5ab17e95dccf93b824190a0e027c6295fe2fd498ed9c04fa5273d54357cd80fa",
+        "signature": "95f8beace3ed894e3e5e3ebaae46c855dfc133e2c63d37663a760c801750f7d4",
+        "affectsGlobalScope": false
+      },
+      "../src/types/types.d.ts": {
+        "version": "8bc4eb6ced02c7cb75cd77be7410cc154389f69dd798a3f1908130edd3a5b965",
+        "signature": "8bc4eb6ced02c7cb75cd77be7410cc154389f69dd798a3f1908130edd3a5b965",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/mocha/index.d.ts": {
+        "version": "0359800d3b440f8515001431cde1500944e156040577425eb3f7b80af0846612",
+        "signature": "0359800d3b440f8515001431cde1500944e156040577425eb3f7b80af0846612",
+        "affectsGlobalScope": true
+      }
+    },
+    "options": {
+      "incremental": true,
+      "target": 4,
+      "outDir": "./main",
+      "rootDir": "../src",
+      "moduleResolution": 2,
+      "module": 1,
+      "declaration": true,
+      "inlineSourceMap": true,
+      "esModuleInterop": true,
+      "resolveJsonModule": true,
+      "strict": true,
+      "noImplicitAny": true,
+      "strictNullChecks": true,
+      "strictFunctionTypes": true,
+      "strictPropertyInitialization": true,
+      "noImplicitThis": true,
+      "alwaysStrict": true,
+      "noUnusedLocals": true,
+      "noUnusedParameters": true,
+      "noImplicitReturns": true,
+      "noFallthroughCasesInSwitch": true,
+      "forceConsistentCasingInFileNames": true,
+      "traceResolution": false,
+      "listEmittedFiles": false,
+      "listFiles": false,
+      "pretty": true,
+      "skipLibCheck": true,
+      "lib": [
+        "lib.es2017.d.ts"
+      ],
+      "types": [
+        "node",
+        "mocha"
+      ],
+      "typeRoots": [
+        "../node_modules/@types",
+        "../src/types"
+      ],
+      "project": "../tsconfig.json",
+      "configFilePath": "../tsconfig.json"
+    },
+    "referencedMap": {
+      "../node_modules/@types/bl/index.d.ts": [
+        "../node_modules/@types/node/index.d.ts"
+      ],
+      "../node_modules/@types/node/base.d.ts": [
+        "../node_modules/@types/node/assert.d.ts",
+        "../node_modules/@types/node/ts3.6/base.d.ts"
+      ],
+      "../node_modules/@types/node/child_process.d.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/net.d.ts",
+        "../node_modules/@types/node/stream.d.ts"
+      ],
+      "../node_modules/@types/node/cluster.d.ts": [
+        "../node_modules/@types/node/child_process.d.ts",
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/net.d.ts"
+      ],
+      "../node_modules/@types/node/console.d.ts": [
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@types/node/constants.d.ts": [
+        "../node_modules/@types/node/crypto.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/os.d.ts"
+      ],
+      "../node_modules/@types/node/crypto.d.ts": [
+        "../node_modules/@types/node/stream.d.ts"
+      ],
+      "../node_modules/@types/node/dgram.d.ts": [
+        "../node_modules/@types/node/dns.d.ts",
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/net.d.ts"
+      ],
+      "../node_modules/@types/node/domain.d.ts": [
+        "../node_modules/@types/node/events.d.ts"
+      ],
+      "../node_modules/@types/node/events.d.ts": [
+        "../node_modules/@types/node/events.d.ts"
+      ],
+      "../node_modules/@types/node/fs.d.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/fs/promises.d.ts",
+        "../node_modules/@types/node/stream.d.ts",
+        "../node_modules/@types/node/url.d.ts"
+      ],
+      "../node_modules/@types/node/fs/promises.d.ts": [
+        "../node_modules/@types/node/fs.d.ts"
+      ],
+      "../node_modules/@types/node/http.d.ts": [
+        "../node_modules/@types/node/net.d.ts",
+        "../node_modules/@types/node/stream.d.ts",
+        "../node_modules/@types/node/url.d.ts"
+      ],
+      "../node_modules/@types/node/http2.d.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/http.d.ts",
+        "../node_modules/@types/node/net.d.ts",
+        "../node_modules/@types/node/stream.d.ts",
+        "../node_modules/@types/node/tls.d.ts",
+        "../node_modules/@types/node/url.d.ts"
+      ],
+      "../node_modules/@types/node/https.d.ts": [
+        "../node_modules/@types/node/http.d.ts",
+        "../node_modules/@types/node/tls.d.ts",
+        "../node_modules/@types/node/url.d.ts"
+      ],
+      "../node_modules/@types/node/index.d.ts": [
+        "../node_modules/@types/node/base.d.ts"
+      ],
+      "../node_modules/@types/node/inspector.d.ts": [
+        "../node_modules/@types/node/events.d.ts"
+      ],
+      "../node_modules/@types/node/module.d.ts": [
+        "../node_modules/@types/node/url.d.ts"
+      ],
+      "../node_modules/@types/node/net.d.ts": [
+        "../node_modules/@types/node/dns.d.ts",
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/stream.d.ts"
+      ],
+      "../node_modules/@types/node/perf_hooks.d.ts": [
+        "../node_modules/@types/node/async_hooks.d.ts"
+      ],
+      "../node_modules/@types/node/process.d.ts": [
+        "../node_modules/@types/node/tty.d.ts"
+      ],
+      "../node_modules/@types/node/readline.d.ts": [
+        "../node_modules/@types/node/events.d.ts"
+      ],
+      "../node_modules/@types/node/repl.d.ts": [
+        "../node_modules/@types/node/readline.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/vm.d.ts"
+      ],
+      "../node_modules/@types/node/stream.d.ts": [
+        "../node_modules/@types/node/events.d.ts"
+      ],
+      "../node_modules/@types/node/tls.d.ts": [
+        "../node_modules/@types/node/net.d.ts"
+      ],
+      "../node_modules/@types/node/ts3.6/base.d.ts": [
+        "../node_modules/@types/node/async_hooks.d.ts",
+        "../node_modules/@types/node/buffer.d.ts",
+        "../node_modules/@types/node/child_process.d.ts",
+        "../node_modules/@types/node/cluster.d.ts",
+        "../node_modules/@types/node/console.d.ts",
+        "../node_modules/@types/node/constants.d.ts",
+        "../node_modules/@types/node/crypto.d.ts",
+        "../node_modules/@types/node/dgram.d.ts",
+        "../node_modules/@types/node/dns.d.ts",
+        "../node_modules/@types/node/domain.d.ts",
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/fs/promises.d.ts",
+        "../node_modules/@types/node/globals.d.ts",
+        "../node_modules/@types/node/globals.global.d.ts",
+        "../node_modules/@types/node/http.d.ts",
+        "../node_modules/@types/node/http2.d.ts",
+        "../node_modules/@types/node/https.d.ts",
+        "../node_modules/@types/node/inspector.d.ts",
+        "../node_modules/@types/node/module.d.ts",
+        "../node_modules/@types/node/net.d.ts",
+        "../node_modules/@types/node/os.d.ts",
+        "../node_modules/@types/node/path.d.ts",
+        "../node_modules/@types/node/perf_hooks.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/punycode.d.ts",
+        "../node_modules/@types/node/querystring.d.ts",
+        "../node_modules/@types/node/readline.d.ts",
+        "../node_modules/@types/node/repl.d.ts",
+        "../node_modules/@types/node/stream.d.ts",
+        "../node_modules/@types/node/string_decoder.d.ts",
+        "../node_modules/@types/node/timers.d.ts",
+        "../node_modules/@types/node/tls.d.ts",
+        "../node_modules/@types/node/trace_events.d.ts",
+        "../node_modules/@types/node/tty.d.ts",
+        "../node_modules/@types/node/url.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/v8.d.ts",
+        "../node_modules/@types/node/vm.d.ts",
+        "../node_modules/@types/node/wasi.d.ts",
+        "../node_modules/@types/node/worker_threads.d.ts",
+        "../node_modules/@types/node/zlib.d.ts"
+      ],
+      "../node_modules/@types/node/tty.d.ts": [
+        "../node_modules/@types/node/net.d.ts"
+      ],
+      "../node_modules/@types/node/url.d.ts": [
+        "../node_modules/@types/node/querystring.d.ts"
+      ],
+      "../node_modules/@types/node/v8.d.ts": [
+        "../node_modules/@types/node/stream.d.ts"
+      ],
+      "../node_modules/@types/node/worker_threads.d.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/fs/promises.d.ts",
+        "../node_modules/@types/node/stream.d.ts",
+        "../node_modules/@types/node/url.d.ts",
+        "../node_modules/@types/node/vm.d.ts"
+      ],
+      "../node_modules/@types/node/zlib.d.ts": [
+        "../node_modules/@types/node/stream.d.ts"
+      ],
+      "../node_modules/cids/dist/src/index.d.ts": [
+        "../node_modules/cids/dist/src/index.d.ts",
+        "../node_modules/multicodec/dist/src/generated-types.d.ts"
+      ],
+      "../node_modules/interface-datastore/dist/src/adapter.d.ts": [
+        "../node_modules/interface-datastore/dist/src/key.d.ts",
+        "../node_modules/interface-datastore/dist/src/types.d.ts",
+        "../node_modules/interface-store/dist/src/index.d.ts"
+      ],
+      "../node_modules/interface-datastore/dist/src/errors.d.ts": [
+        "../node_modules/err-code/dist/index.d.ts"
+      ],
+      "../node_modules/interface-datastore/dist/src/index.d.ts": [
+        "../node_modules/interface-datastore/dist/src/adapter.d.ts",
+        "../node_modules/interface-datastore/dist/src/errors.d.ts",
+        "../node_modules/interface-datastore/dist/src/key.d.ts",
+        "../node_modules/interface-datastore/dist/src/memory.d.ts",
+        "../node_modules/interface-datastore/dist/src/types.d.ts",
+        "../node_modules/interface-datastore/dist/src/utils.d.ts",
+        "../node_modules/interface-store/dist/src/index.d.ts"
+      ],
+      "../node_modules/interface-datastore/dist/src/key.d.ts": [
+        "../node_modules/uint8arrays/dist/to-string.d.ts"
+      ],
+      "../node_modules/interface-datastore/dist/src/memory.d.ts": [
+        "../node_modules/interface-datastore/dist/src/adapter.d.ts",
+        "../node_modules/interface-datastore/dist/src/types.d.ts",
+        "../node_modules/interface-store/dist/src/index.d.ts"
+      ],
+      "../node_modules/interface-datastore/dist/src/types.d.ts": [
+        "../node_modules/interface-datastore/dist/src/key.d.ts",
+        "../node_modules/interface-store/dist/src/index.d.ts"
+      ],
+      "../node_modules/interface-datastore/dist/src/utils.d.ts": [
+        "../node_modules/ipfs-utils/dist/src/temp-dir.d.ts"
+      ],
+      "../node_modules/it-concat/index.d.ts": [
+        "../node_modules/@types/bl/index.d.ts"
+      ],
+      "../node_modules/it-length-prefixed/dist/src/decode.d.ts": [
+        "../node_modules/it-length-prefixed/dist/src/types.d.ts"
+      ],
+      "../node_modules/it-length-prefixed/dist/src/encode.d.ts": [
+        "../node_modules/@types/node/buffer.d.ts",
+        "../node_modules/@types/node/index.d.ts",
+        "../node_modules/it-length-prefixed/dist/src/types.d.ts"
+      ],
+      "../node_modules/it-length-prefixed/dist/src/index.d.ts": [
+        "../node_modules/it-length-prefixed/dist/src/decode.d.ts",
+        "../node_modules/it-length-prefixed/dist/src/encode.d.ts",
+        "../node_modules/it-length-prefixed/dist/src/types.d.ts"
+      ],
+      "../node_modules/it-length-prefixed/dist/src/types.d.ts": [
+        "../node_modules/@types/node/index.d.ts"
+      ],
+      "../node_modules/it-pb-rpc/src/index.d.ts": [
+        "../node_modules/@types/bl/index.d.ts",
+        "../node_modules/@types/node/buffer.d.ts"
+      ],
+      "../node_modules/libp2p-gossipsub/node_modules/libp2p-interfaces/dist/src/connection/connection.d.ts": [
+        "../node_modules/libp2p-gossipsub/node_modules/libp2p-interfaces/dist/src/connection/status.d.ts",
+        "../node_modules/libp2p-gossipsub/node_modules/libp2p-interfaces/dist/src/stream-muxer/types.d.ts",
+        "../node_modules/multiaddr/dist/src/index.d.ts",
+        "../node_modules/peer-id/src/index.d.ts"
+      ],
+      "../node_modules/libp2p-gossipsub/node_modules/libp2p-interfaces/dist/src/pubsub/index.d.ts": [
+        "../node_modules/@types/bl/index.d.ts",
+        "../node_modules/@types/debug/index.d.ts",
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/libp2p-gossipsub/node_modules/libp2p-interfaces/dist/src/connection/connection.d.ts",
+        "../node_modules/libp2p-gossipsub/node_modules/libp2p-interfaces/dist/src/pubsub/message/rpc.d.ts",
+        "../node_modules/libp2p-gossipsub/node_modules/libp2p-interfaces/dist/src/pubsub/peer-streams.d.ts",
+        "../node_modules/libp2p-gossipsub/node_modules/libp2p-interfaces/dist/src/pubsub/signature-policy.d.ts",
+        "../node_modules/libp2p-gossipsub/node_modules/libp2p-interfaces/dist/src/pubsub/utils.d.ts",
+        "../node_modules/libp2p-gossipsub/node_modules/libp2p-interfaces/dist/src/stream-muxer/types.d.ts",
+        "../node_modules/peer-id/src/index.d.ts"
+      ],
+      "../node_modules/libp2p-gossipsub/node_modules/libp2p-interfaces/dist/src/pubsub/message/rpc.d.ts": [
+        "../node_modules/protobufjs/index.d.ts"
+      ],
+      "../node_modules/libp2p-gossipsub/node_modules/libp2p-interfaces/dist/src/pubsub/peer-streams.d.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/it-pushable/index.d.ts",
+        "../node_modules/libp2p-gossipsub/node_modules/libp2p-interfaces/dist/src/stream-muxer/types.d.ts",
+        "../node_modules/peer-id/src/index.d.ts"
+      ],
+      "../node_modules/libp2p-gossipsub/node_modules/libp2p-interfaces/dist/src/pubsub/utils.d.ts": [
+        "../node_modules/libp2p-gossipsub/node_modules/libp2p-interfaces/dist/src/pubsub/index.d.ts",
+        "../node_modules/libp2p-gossipsub/node_modules/libp2p-interfaces/dist/src/pubsub/message/rpc.d.ts"
+      ],
+      "../node_modules/libp2p-gossipsub/node_modules/libp2p-interfaces/dist/src/stream-muxer/types.d.ts": [
+        "../node_modules/@types/bl/index.d.ts"
+      ],
+      "../node_modules/libp2p-gossipsub/src/heartbeat.d.ts": [
+        "../node_modules/@types/node/index.d.ts",
+        "../node_modules/libp2p-gossipsub/src/index.d.ts"
+      ],
+      "../node_modules/libp2p-gossipsub/src/index.d.ts": [
+        "../node_modules/@types/debug/index.d.ts",
+        "../node_modules/@types/node/index.d.ts",
+        "../node_modules/libp2p-gossipsub/node_modules/libp2p-interfaces/dist/src/pubsub/index.d.ts",
+        "../node_modules/libp2p-gossipsub/node_modules/libp2p-interfaces/dist/src/pubsub/peer-streams.d.ts",
+        "../node_modules/libp2p-gossipsub/src/heartbeat.d.ts",
+        "../node_modules/libp2p-gossipsub/src/interfaces.d.ts",
+        "../node_modules/libp2p-gossipsub/src/message-cache.d.ts",
+        "../node_modules/libp2p-gossipsub/src/message/rpc.d.ts",
+        "../node_modules/libp2p-gossipsub/src/score/index.d.ts",
+        "../node_modules/libp2p-gossipsub/src/tracer.d.ts",
+        "../node_modules/libp2p/dist/src/index.d.ts",
+        "../node_modules/peer-id/src/index.d.ts"
+      ],
+      "../node_modules/libp2p-gossipsub/src/interfaces.d.ts": [
+        "../node_modules/libp2p-gossipsub/node_modules/libp2p-interfaces/dist/src/pubsub/index.d.ts",
+        "../node_modules/multiaddr/dist/src/index.d.ts",
+        "../node_modules/peer-id/src/index.d.ts"
+      ],
+      "../node_modules/libp2p-gossipsub/src/message-cache.d.ts": [
+        "../node_modules/libp2p-gossipsub/node_modules/libp2p-interfaces/dist/src/pubsub/index.d.ts",
+        "../node_modules/libp2p-gossipsub/src/interfaces.d.ts"
+      ],
+      "../node_modules/libp2p-gossipsub/src/message/rpc.d.ts": [
+        "../node_modules/protobufjs/index.d.ts"
+      ],
+      "../node_modules/libp2p-gossipsub/src/score/index.d.ts": [
+        "../node_modules/libp2p-gossipsub/src/score/peer-score-params.d.ts",
+        "../node_modules/libp2p-gossipsub/src/score/peer-score-thresholds.d.ts",
+        "../node_modules/libp2p-gossipsub/src/score/peer-score.d.ts"
+      ],
+      "../node_modules/libp2p-gossipsub/src/score/peer-score.d.ts": [
+        "../node_modules/@types/node/index.d.ts",
+        "../node_modules/libp2p-gossipsub/node_modules/libp2p-interfaces/dist/src/pubsub/index.d.ts",
+        "../node_modules/libp2p-gossipsub/src/interfaces.d.ts",
+        "../node_modules/libp2p-gossipsub/src/score/message-deliveries.d.ts",
+        "../node_modules/libp2p-gossipsub/src/score/peer-score-params.d.ts",
+        "../node_modules/libp2p-gossipsub/src/score/peer-stats.d.ts",
+        "../node_modules/libp2p/dist/src/connection-manager/index.d.ts"
+      ],
+      "../node_modules/libp2p-gossipsub/src/score/peer-stats.d.ts": [
+        "../node_modules/libp2p-gossipsub/src/score/peer-score-params.d.ts"
+      ],
+      "../node_modules/libp2p-gossipsub/src/tracer.d.ts": [
+        "../node_modules/libp2p-gossipsub/node_modules/libp2p-interfaces/dist/src/pubsub/index.d.ts",
+        "../node_modules/libp2p-gossipsub/src/interfaces.d.ts"
+      ],
+      "../node_modules/libp2p-gossipsub/src/utils/create-gossip-rpc.d.ts": [
+        "../node_modules/libp2p-gossipsub/src/message/rpc.d.ts"
+      ],
+      "../node_modules/libp2p-gossipsub/src/utils/index.d.ts": [
+        "../node_modules/libp2p-gossipsub/src/utils/create-gossip-rpc.d.ts",
+        "../node_modules/libp2p-gossipsub/src/utils/has-gossip-protocol.d.ts",
+        "../node_modules/libp2p-gossipsub/src/utils/messageIdToString.d.ts",
+        "../node_modules/libp2p-gossipsub/src/utils/shuffle.d.ts"
+      ],
+      "../node_modules/libp2p-interfaces/dist/src/connection/connection.d.ts": [
+        "../node_modules/libp2p-interfaces/dist/src/connection/status.d.ts",
+        "../node_modules/libp2p-interfaces/dist/src/stream-muxer/types.d.ts",
+        "../node_modules/multiaddr/dist/src/index.d.ts",
+        "../node_modules/peer-id/src/index.d.ts"
+      ],
+      "../node_modules/libp2p-interfaces/dist/src/connection/index.d.ts": [
+        "../node_modules/libp2p-interfaces/dist/src/connection/connection.d.ts"
+      ],
+      "../node_modules/libp2p-interfaces/dist/src/content-routing/types.d.ts": [
+        "../node_modules/cids/dist/src/index.d.ts",
+        "../node_modules/multiaddr/dist/src/index.d.ts",
+        "../node_modules/peer-id/src/index.d.ts"
+      ],
+      "../node_modules/libp2p-interfaces/dist/src/crypto/types.d.ts": [
+        "../node_modules/libp2p-interfaces/dist/src/transport/types.d.ts",
+        "../node_modules/peer-id/src/index.d.ts"
+      ],
+      "../node_modules/libp2p-interfaces/dist/src/peer-discovery/types.d.ts": [
+        "../node_modules/@types/node/events.d.ts"
+      ],
+      "../node_modules/libp2p-interfaces/dist/src/peer-routing/types.d.ts": [
+        "../node_modules/multiaddr/dist/src/index.d.ts",
+        "../node_modules/peer-id/src/index.d.ts"
+      ],
+      "../node_modules/libp2p-interfaces/dist/src/pubsub/index.d.ts": [
+        "../node_modules/@types/bl/index.d.ts",
+        "../node_modules/@types/debug/index.d.ts",
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/libp2p-interfaces/dist/src/connection/connection.d.ts",
+        "../node_modules/libp2p-interfaces/dist/src/pubsub/message/rpc.d.ts",
+        "../node_modules/libp2p-interfaces/dist/src/pubsub/peer-streams.d.ts",
+        "../node_modules/libp2p-interfaces/dist/src/pubsub/signature-policy.d.ts",
+        "../node_modules/libp2p-interfaces/dist/src/pubsub/utils.d.ts",
+        "../node_modules/libp2p-interfaces/dist/src/stream-muxer/types.d.ts",
+        "../node_modules/peer-id/src/index.d.ts"
+      ],
+      "../node_modules/libp2p-interfaces/dist/src/pubsub/message/rpc.d.ts": [
+        "../node_modules/protobufjs/index.d.ts"
+      ],
+      "../node_modules/libp2p-interfaces/dist/src/pubsub/peer-streams.d.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/it-pushable/index.d.ts",
+        "../node_modules/libp2p-interfaces/dist/src/stream-muxer/types.d.ts",
+        "../node_modules/peer-id/src/index.d.ts"
+      ],
+      "../node_modules/libp2p-interfaces/dist/src/pubsub/utils.d.ts": [
+        "../node_modules/libp2p-interfaces/dist/src/pubsub/index.d.ts",
+        "../node_modules/libp2p-interfaces/dist/src/pubsub/message/rpc.d.ts"
+      ],
+      "../node_modules/libp2p-interfaces/dist/src/stream-muxer/types.d.ts": [
+        "../node_modules/@types/bl/index.d.ts"
+      ],
+      "../node_modules/libp2p-interfaces/dist/src/topology/index.d.ts": [
+        "../node_modules/libp2p-interfaces/dist/src/connection/connection.d.ts",
+        "../node_modules/peer-id/src/index.d.ts"
+      ],
+      "../node_modules/libp2p-interfaces/dist/src/transport/types.d.ts": [
+        "../node_modules/@types/bl/index.d.ts",
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/libp2p-interfaces/dist/src/connection/connection.d.ts",
+        "../node_modules/libp2p-interfaces/dist/src/stream-muxer/types.d.ts",
+        "../node_modules/multiaddr/dist/src/index.d.ts"
+      ],
+      "../node_modules/libp2p-noise/dist/src/@types/basic.d.ts": [
+        "../node_modules/@types/node/buffer.d.ts"
+      ],
+      "../node_modules/libp2p-noise/dist/src/@types/libp2p.d.ts": [
+        "../node_modules/libp2p-noise/dist/src/@types/basic.d.ts",
+        "../node_modules/peer-id/src/index.d.ts"
+      ],
+      "../node_modules/libp2p-noise/dist/src/noise.d.ts": [
+        "../node_modules/it-pb-rpc/src/index.d.ts",
+        "../node_modules/libp2p-noise/dist/src/@types/basic.d.ts",
+        "../node_modules/libp2p-noise/dist/src/@types/libp2p.d.ts",
+        "../node_modules/peer-id/src/index.d.ts"
+      ],
+      "../node_modules/libp2p-utils/dist/src/address-sort.d.ts": [
+        "../node_modules/multiaddr/dist/src/index.d.ts"
+      ],
+      "../node_modules/libp2p/dist/src/address-manager/index.d.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/multiaddr/dist/src/index.d.ts",
+        "../node_modules/peer-id/src/index.d.ts"
+      ],
+      "../node_modules/libp2p/dist/src/circuit/auto-relay.d.ts": [
+        "../node_modules/libp2p-interfaces/dist/src/connection/connection.d.ts",
+        "../node_modules/libp2p/dist/src/connection-manager/index.d.ts",
+        "../node_modules/libp2p/dist/src/index.d.ts",
+        "../node_modules/libp2p/dist/src/peer-store/address-book.d.ts",
+        "../node_modules/libp2p/dist/src/peer-store/index.d.ts",
+        "../node_modules/libp2p/dist/src/transport-manager.d.ts",
+        "../node_modules/peer-id/src/index.d.ts"
+      ],
+      "../node_modules/libp2p/dist/src/circuit/index.d.ts": [
+        "../node_modules/libp2p/dist/src/circuit/auto-relay.d.ts",
+        "../node_modules/libp2p/dist/src/index.d.ts"
+      ],
+      "../node_modules/libp2p/dist/src/connection-manager/index.d.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/libp2p-interfaces/dist/src/connection/connection.d.ts",
+        "../node_modules/libp2p/dist/src/connection-manager/latency-monitor.d.ts",
+        "../node_modules/libp2p/dist/src/index.d.ts",
+        "../node_modules/peer-id/src/index.d.ts"
+      ],
+      "../node_modules/libp2p/dist/src/connection-manager/latency-monitor.d.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/libp2p/dist/src/connection-manager/visibility-change-emitter.d.ts"
+      ],
+      "../node_modules/libp2p/dist/src/connection-manager/visibility-change-emitter.d.ts": [
+        "../node_modules/@types/node/events.d.ts"
+      ],
+      "../node_modules/libp2p/dist/src/content-routing/index.d.ts": [
+        "../node_modules/cids/dist/src/index.d.ts",
+        "../node_modules/libp2p-interfaces/dist/src/content-routing/types.d.ts",
+        "../node_modules/libp2p/dist/src/index.d.ts",
+        "../node_modules/multiaddr/dist/src/index.d.ts",
+        "../node_modules/peer-id/src/index.d.ts"
+      ],
+      "../node_modules/libp2p/dist/src/dialer/dial-request.d.ts": [
+        "../node_modules/libp2p-interfaces/dist/src/connection/connection.d.ts",
+        "../node_modules/libp2p/dist/src/dialer/index.d.ts",
+        "../node_modules/multiaddr/dist/src/index.d.ts"
+      ],
+      "../node_modules/libp2p/dist/src/dialer/index.d.ts": [
+        "../node_modules/libp2p-interfaces/dist/src/connection/connection.d.ts",
+        "../node_modules/libp2p/dist/src/dialer/dial-request.d.ts",
+        "../node_modules/libp2p/dist/src/peer-store/address-book.d.ts",
+        "../node_modules/libp2p/dist/src/peer-store/index.d.ts",
+        "../node_modules/libp2p/dist/src/transport-manager.d.ts",
+        "../node_modules/multiaddr/dist/src/index.d.ts",
+        "../node_modules/peer-id/src/index.d.ts"
+      ],
+      "../node_modules/libp2p/dist/src/identify/index.d.ts": [
+        "../node_modules/libp2p-interfaces/dist/src/connection/connection.d.ts",
+        "../node_modules/libp2p-interfaces/dist/src/stream-muxer/types.d.ts",
+        "../node_modules/libp2p/dist/src/address-manager/index.d.ts",
+        "../node_modules/libp2p/dist/src/connection-manager/index.d.ts",
+        "../node_modules/libp2p/dist/src/identify/consts.d.ts",
+        "../node_modules/libp2p/dist/src/identify/message.d.ts",
+        "../node_modules/libp2p/dist/src/index.d.ts",
+        "../node_modules/libp2p/dist/src/peer-store/index.d.ts",
+        "../node_modules/multiaddr/dist/src/index.d.ts",
+        "../node_modules/peer-id/src/index.d.ts"
+      ],
+      "../node_modules/libp2p/dist/src/identify/message.d.ts": [
+        "../node_modules/protobufjs/index.d.ts"
+      ],
+      "../node_modules/libp2p/dist/src/index.d.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/interface-datastore/dist/src/index.d.ts",
+        "../node_modules/interface-datastore/dist/src/types.d.ts",
+        "../node_modules/libp2p-interfaces/dist/src/connection/connection.d.ts",
+        "../node_modules/libp2p-interfaces/dist/src/content-routing/types.d.ts",
+        "../node_modules/libp2p-interfaces/dist/src/crypto/types.d.ts",
+        "../node_modules/libp2p-interfaces/dist/src/peer-discovery/types.d.ts",
+        "../node_modules/libp2p-interfaces/dist/src/peer-routing/types.d.ts",
+        "../node_modules/libp2p-interfaces/dist/src/pubsub/index.d.ts",
+        "../node_modules/libp2p-interfaces/dist/src/stream-muxer/types.d.ts",
+        "../node_modules/libp2p-interfaces/dist/src/transport/types.d.ts",
+        "../node_modules/libp2p-interfaces/dist/src/types.d.ts",
+        "../node_modules/libp2p-utils/dist/src/address-sort.d.ts",
+        "../node_modules/libp2p/dist/src/address-manager/index.d.ts",
+        "../node_modules/libp2p/dist/src/circuit/index.d.ts",
+        "../node_modules/libp2p/dist/src/connection-manager/index.d.ts",
+        "../node_modules/libp2p/dist/src/content-routing/index.d.ts",
+        "../node_modules/libp2p/dist/src/dialer/index.d.ts",
+        "../node_modules/libp2p/dist/src/identify/index.d.ts",
+        "../node_modules/libp2p/dist/src/keychain/index.d.ts",
+        "../node_modules/libp2p/dist/src/metrics/index.d.ts",
+        "../node_modules/libp2p/dist/src/nat-manager.d.ts",
+        "../node_modules/libp2p/dist/src/peer-routing.d.ts",
+        "../node_modules/libp2p/dist/src/peer-store/index.d.ts",
+        "../node_modules/libp2p/dist/src/peer-store/persistent/index.d.ts",
+        "../node_modules/libp2p/dist/src/pnet/index.d.ts",
+        "../node_modules/libp2p/dist/src/registrar.d.ts",
+        "../node_modules/libp2p/dist/src/transport-manager.d.ts",
+        "../node_modules/libp2p/dist/src/upgrader.d.ts",
+        "../node_modules/multiaddr/dist/src/index.d.ts",
+        "../node_modules/peer-id/src/index.d.ts"
+      ],
+      "../node_modules/libp2p/dist/src/keychain/cms.d.ts": [
+        "../node_modules/libp2p/dist/src/keychain/index.d.ts"
+      ],
+      "../node_modules/libp2p/dist/src/keychain/index.d.ts": [
+        "../node_modules/interface-datastore/dist/src/index.d.ts",
+        "../node_modules/interface-datastore/dist/src/types.d.ts",
+        "../node_modules/libp2p/dist/src/keychain/cms.d.ts",
+        "../node_modules/peer-id/src/index.d.ts"
+      ],
+      "../node_modules/libp2p/dist/src/metrics/index.d.ts": [
+        "../node_modules/libp2p-interfaces/dist/src/transport/types.d.ts",
+        "../node_modules/libp2p/dist/src/connection-manager/index.d.ts",
+        "../node_modules/libp2p/dist/src/metrics/stats.d.ts",
+        "../node_modules/peer-id/src/index.d.ts"
+      ],
+      "../node_modules/libp2p/dist/src/metrics/stats.d.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@vascosantos/moving-average/index.d.ts",
+        "../node_modules/bignumber.js/bignumber.d.ts"
+      ],
+      "../node_modules/libp2p/dist/src/nat-manager.d.ts": [
+        "../node_modules/libp2p/dist/src/address-manager/index.d.ts",
+        "../node_modules/libp2p/dist/src/transport-manager.d.ts",
+        "../node_modules/peer-id/src/index.d.ts"
+      ],
+      "../node_modules/libp2p/dist/src/peer-routing.d.ts": [
+        "../node_modules/libp2p-interfaces/dist/src/peer-routing/types.d.ts",
+        "../node_modules/libp2p/dist/src/index.d.ts",
+        "../node_modules/libp2p/dist/src/peer-store/index.d.ts",
+        "../node_modules/multiaddr/dist/src/index.d.ts",
+        "../node_modules/peer-id/src/index.d.ts"
+      ],
+      "../node_modules/libp2p/dist/src/peer-store/address-book.d.ts": [
+        "../node_modules/libp2p/dist/src/peer-store/book.d.ts",
+        "../node_modules/libp2p/dist/src/peer-store/index.d.ts",
+        "../node_modules/libp2p/dist/src/record/envelope/index.d.ts",
+        "../node_modules/multiaddr/dist/src/index.d.ts",
+        "../node_modules/peer-id/src/index.d.ts"
+      ],
+      "../node_modules/libp2p/dist/src/peer-store/book.d.ts": [
+        "../node_modules/libp2p/dist/src/peer-store/index.d.ts",
+        "../node_modules/peer-id/src/index.d.ts"
+      ],
+      "../node_modules/libp2p/dist/src/peer-store/index.d.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/libp2p/dist/src/peer-store/address-book.d.ts",
+        "../node_modules/libp2p/dist/src/peer-store/key-book.d.ts",
+        "../node_modules/libp2p/dist/src/peer-store/metadata-book.d.ts",
+        "../node_modules/libp2p/dist/src/peer-store/proto-book.d.ts",
+        "../node_modules/peer-id/src/index.d.ts"
+      ],
+      "../node_modules/libp2p/dist/src/peer-store/key-book.d.ts": [
+        "../node_modules/libp2p-crypto/src/index.d.ts",
+        "../node_modules/libp2p/dist/src/peer-store/book.d.ts",
+        "../node_modules/libp2p/dist/src/peer-store/index.d.ts"
+      ],
+      "../node_modules/libp2p/dist/src/peer-store/metadata-book.d.ts": [
+        "../node_modules/libp2p/dist/src/peer-store/book.d.ts",
+        "../node_modules/libp2p/dist/src/peer-store/index.d.ts",
+        "../node_modules/peer-id/src/index.d.ts"
+      ],
+      "../node_modules/libp2p/dist/src/peer-store/persistent/index.d.ts": [
+        "../node_modules/interface-datastore/dist/src/index.d.ts",
+        "../node_modules/interface-datastore/dist/src/types.d.ts",
+        "../node_modules/libp2p/dist/src/peer-store/address-book.d.ts",
+        "../node_modules/libp2p/dist/src/peer-store/index.d.ts",
+        "../node_modules/peer-id/src/index.d.ts"
+      ],
+      "../node_modules/libp2p/dist/src/peer-store/proto-book.d.ts": [
+        "../node_modules/libp2p/dist/src/peer-store/book.d.ts",
+        "../node_modules/libp2p/dist/src/peer-store/index.d.ts",
+        "../node_modules/peer-id/src/index.d.ts"
+      ],
+      "../node_modules/libp2p/dist/src/ping/index.d.ts": [
+        "../node_modules/libp2p-interfaces/dist/src/stream-muxer/types.d.ts",
+        "../node_modules/libp2p/dist/src/index.d.ts",
+        "../node_modules/multiaddr/dist/src/index.d.ts",
+        "../node_modules/peer-id/src/index.d.ts"
+      ],
+      "../node_modules/libp2p/dist/src/pnet/index.d.ts": [
+        "../node_modules/libp2p-interfaces/dist/src/transport/types.d.ts",
+        "../node_modules/libp2p/dist/src/pnet/errors.d.ts",
+        "../node_modules/libp2p/dist/src/pnet/key-generator.d.ts"
+      ],
+      "../node_modules/libp2p/dist/src/record/envelope/index.d.ts": [
+        "../node_modules/libp2p-interfaces/dist/src/record/types.d.ts",
+        "../node_modules/peer-id/src/index.d.ts"
+      ],
+      "../node_modules/libp2p/dist/src/registrar.d.ts": [
+        "../node_modules/libp2p-interfaces/dist/src/connection/connection.d.ts",
+        "../node_modules/libp2p-interfaces/dist/src/topology/index.d.ts",
+        "../node_modules/libp2p/dist/src/connection-manager/index.d.ts",
+        "../node_modules/libp2p/dist/src/index.d.ts",
+        "../node_modules/libp2p/dist/src/peer-store/index.d.ts",
+        "../node_modules/peer-id/src/index.d.ts"
+      ],
+      "../node_modules/libp2p/dist/src/transport-manager.d.ts": [
+        "../node_modules/libp2p-interfaces/dist/src/connection/connection.d.ts",
+        "../node_modules/libp2p-interfaces/dist/src/transport/types.d.ts",
+        "../node_modules/libp2p/dist/src/index.d.ts",
+        "../node_modules/libp2p/dist/src/upgrader.d.ts",
+        "../node_modules/multiaddr/dist/src/index.d.ts"
+      ],
+      "../node_modules/libp2p/dist/src/upgrader.d.ts": [
+        "../node_modules/libp2p-interfaces/dist/src/connection/connection.d.ts",
+        "../node_modules/libp2p-interfaces/dist/src/connection/index.d.ts",
+        "../node_modules/libp2p-interfaces/dist/src/crypto/types.d.ts",
+        "../node_modules/libp2p-interfaces/dist/src/stream-muxer/types.d.ts",
+        "../node_modules/libp2p-interfaces/dist/src/transport/types.d.ts",
+        "../node_modules/libp2p/dist/src/metrics/index.d.ts",
+        "../node_modules/libp2p/dist/src/pnet/index.d.ts",
+        "../node_modules/multiaddr/dist/src/index.d.ts",
+        "../node_modules/peer-id/src/index.d.ts"
+      ],
+      "../node_modules/multiaddr/dist/src/index.d.ts": [
+        "../node_modules/multiaddr/dist/src/protocols-table.d.ts",
+        "../node_modules/multiaddr/dist/src/types.d.ts"
+      ],
+      "../node_modules/multiaddr/dist/src/protocols-table.d.ts": [
+        "../node_modules/multiaddr/dist/src/types.d.ts"
+      ],
+      "../node_modules/peer-id/src/index.d.ts": [
+        "../node_modules/cids/dist/src/index.d.ts",
+        "../node_modules/libp2p-crypto/src/index.d.ts"
+      ],
+      "../node_modules/protobufjs/minimal.d.ts": [
+        "../node_modules/protobufjs/index.d.ts"
+      ],
+      "../node_modules/uint8arrays/dist/to-string.d.ts": [
+        "../node_modules/multibase/src/types.d.ts"
+      ],
+      "../src/index.ts": [
+        "../src/lib/chat_message/index.ts",
+        "../src/lib/discover.ts",
+        "../src/lib/waku.ts",
+        "../src/lib/waku_light_push/index.ts",
+        "../src/lib/waku_message.ts",
+        "../src/lib/waku_relay/index.ts",
+        "../src/lib/waku_store/index.ts",
+        "../src/proto/index.ts"
+      ],
+      "../src/lib/chat_message/index.ts": [
+        "../node_modules/protobufjs/minimal.d.ts",
+        "../src/proto/chat/v2/chat_message.ts"
+      ],
+      "../src/lib/discover.ts": [
+        "../node_modules/axios/index.d.ts"
+      ],
+      "../src/lib/select_peer.ts": [
+        "../node_modules/libp2p/dist/src/index.d.ts",
+        "../node_modules/libp2p/dist/src/peer-store/index.d.ts"
+      ],
+      "../src/lib/waku.ts": [
+        "../node_modules/libp2p-interfaces/dist/src/stream-muxer/types.d.ts",
+        "../node_modules/libp2p-noise/dist/src/@types/basic.d.ts",
+        "../node_modules/libp2p-noise/dist/src/noise.d.ts",
+        "../node_modules/libp2p/dist/src/index.d.ts",
+        "../node_modules/libp2p/dist/src/ping/index.d.ts",
+        "../node_modules/multiaddr/dist/src/index.d.ts",
+        "../node_modules/peer-id/src/index.d.ts",
+        "../src/lib/waku_light_push/index.ts",
+        "../src/lib/waku_relay/index.ts",
+        "../src/lib/waku_store/index.ts",
+        "../src/types/types.d.ts"
+      ],
+      "../src/lib/waku_light_push/index.ts": [
+        "../node_modules/it-concat/index.d.ts",
+        "../node_modules/it-length-prefixed/dist/src/index.d.ts",
+        "../node_modules/it-pipe/index.d.ts",
+        "../node_modules/libp2p/dist/src/index.d.ts",
+        "../node_modules/peer-id/src/index.d.ts",
+        "../src/lib/select_peer.ts",
+        "../src/lib/waku_light_push/push_rpc.ts",
+        "../src/lib/waku_message.ts",
+        "../src/lib/waku_relay/index.ts",
+        "../src/proto/waku/v2/light_push.ts"
+      ],
+      "../src/lib/waku_light_push/push_rpc.ts": [
+        "../node_modules/@types/uuid/index.d.ts",
+        "../node_modules/protobufjs/minimal.d.ts",
+        "../src/lib/waku_message.ts",
+        "../src/lib/waku_relay/index.ts",
+        "../src/proto/waku/v2/light_push.ts"
+      ],
+      "../src/lib/waku_message.ts": [
+        "../node_modules/protobufjs/minimal.d.ts",
+        "../src/proto/waku/v2/message.ts"
+      ],
+      "../src/lib/waku_relay/get_relay_peers.ts": [
+        "../node_modules/libp2p-gossipsub/src/index.d.ts",
+        "../node_modules/libp2p-gossipsub/src/utils/index.d.ts",
+        "../src/lib/waku_relay/index.ts"
+      ],
+      "../src/lib/waku_relay/index.ts": [
+        "../node_modules/libp2p-gossipsub/src/index.d.ts",
+        "../node_modules/libp2p-gossipsub/src/interfaces.d.ts",
+        "../node_modules/libp2p-gossipsub/src/message-cache.d.ts",
+        "../node_modules/libp2p-gossipsub/src/message/rpc.d.ts",
+        "../node_modules/libp2p-gossipsub/src/score/index.d.ts",
+        "../node_modules/libp2p-gossipsub/src/utils/index.d.ts",
+        "../node_modules/libp2p-interfaces/dist/src/pubsub/index.d.ts",
+        "../node_modules/libp2p-interfaces/dist/src/pubsub/signature-policy.d.ts",
+        "../node_modules/libp2p/dist/src/index.d.ts",
+        "../node_modules/peer-id/src/index.d.ts",
+        "../src/lib/waku.ts",
+        "../src/lib/waku_message.ts",
+        "../src/lib/waku_relay/constants.ts",
+        "../src/lib/waku_relay/get_relay_peers.ts",
+        "../src/lib/waku_relay/relay_heartbeat.ts"
+      ],
+      "../src/lib/waku_relay/relay_heartbeat.ts": [
+        "../node_modules/libp2p-gossipsub/src/heartbeat.d.ts",
+        "../node_modules/libp2p-gossipsub/src/index.d.ts",
+        "../node_modules/libp2p-gossipsub/src/utils/index.d.ts",
+        "../src/lib/waku_relay/constants.ts",
+        "../src/lib/waku_relay/get_relay_peers.ts"
+      ],
+      "../src/lib/waku_store/history_rpc.ts": [
+        "../node_modules/@types/uuid/index.d.ts",
+        "../node_modules/protobufjs/minimal.d.ts",
+        "../src/proto/waku/v2/store.ts"
+      ],
+      "../src/lib/waku_store/index.ts": [
+        "../node_modules/it-concat/index.d.ts",
+        "../node_modules/it-length-prefixed/dist/src/index.d.ts",
+        "../node_modules/it-pipe/index.d.ts",
+        "../node_modules/libp2p/dist/src/index.d.ts",
+        "../node_modules/peer-id/src/index.d.ts",
+        "../src/lib/select_peer.ts",
+        "../src/lib/waku_message.ts",
+        "../src/lib/waku_relay/index.ts",
+        "../src/lib/waku_store/history_rpc.ts"
+      ],
+      "../src/proto/chat/v2/chat_message.ts": [
+        "../node_modules/@types/long/index.d.ts",
+        "../node_modules/protobufjs/minimal.d.ts"
+      ],
+      "../src/proto/index.ts": [
+        "../src/proto/chat/v2/chat_message.ts",
+        "../src/proto/waku/v2/message.ts",
+        "../src/proto/waku/v2/store.ts"
+      ],
+      "../src/proto/waku/v2/light_push.ts": [
+        "../node_modules/@types/long/index.d.ts",
+        "../node_modules/protobufjs/minimal.d.ts",
+        "../src/proto/waku/v2/message.ts"
+      ],
+      "../src/proto/waku/v2/message.ts": [
+        "../node_modules/@types/long/index.d.ts",
+        "../node_modules/protobufjs/minimal.d.ts"
+      ],
+      "../src/proto/waku/v2/store.ts": [
+        "../node_modules/@types/long/index.d.ts",
+        "../node_modules/protobufjs/minimal.d.ts",
+        "../src/proto/waku/v2/message.ts"
+      ]
+    },
+    "exportedModulesMap": {
+      "../node_modules/@types/bl/index.d.ts": [
+        "../node_modules/@types/node/index.d.ts"
+      ],
+      "../node_modules/@types/node/base.d.ts": [
+        "../node_modules/@types/node/assert.d.ts",
+        "../node_modules/@types/node/ts3.6/base.d.ts"
+      ],
+      "../node_modules/@types/node/child_process.d.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/net.d.ts",
+        "../node_modules/@types/node/stream.d.ts"
+      ],
+      "../node_modules/@types/node/cluster.d.ts": [
+        "../node_modules/@types/node/child_process.d.ts",
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/net.d.ts"
+      ],
+      "../node_modules/@types/node/console.d.ts": [
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@types/node/constants.d.ts": [
+        "../node_modules/@types/node/crypto.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/os.d.ts"
+      ],
+      "../node_modules/@types/node/crypto.d.ts": [
+        "../node_modules/@types/node/stream.d.ts"
+      ],
+      "../node_modules/@types/node/dgram.d.ts": [
+        "../node_modules/@types/node/dns.d.ts",
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/net.d.ts"
+      ],
+      "../node_modules/@types/node/domain.d.ts": [
+        "../node_modules/@types/node/events.d.ts"
+      ],
+      "../node_modules/@types/node/events.d.ts": [
+        "../node_modules/@types/node/events.d.ts"
+      ],
+      "../node_modules/@types/node/fs.d.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/fs/promises.d.ts",
+        "../node_modules/@types/node/stream.d.ts",
+        "../node_modules/@types/node/url.d.ts"
+      ],
+      "../node_modules/@types/node/fs/promises.d.ts": [
+        "../node_modules/@types/node/fs.d.ts"
+      ],
+      "../node_modules/@types/node/http.d.ts": [
+        "../node_modules/@types/node/net.d.ts",
+        "../node_modules/@types/node/stream.d.ts",
+        "../node_modules/@types/node/url.d.ts"
+      ],
+      "../node_modules/@types/node/http2.d.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/http.d.ts",
+        "../node_modules/@types/node/net.d.ts",
+        "../node_modules/@types/node/stream.d.ts",
+        "../node_modules/@types/node/tls.d.ts",
+        "../node_modules/@types/node/url.d.ts"
+      ],
+      "../node_modules/@types/node/https.d.ts": [
+        "../node_modules/@types/node/http.d.ts",
+        "../node_modules/@types/node/tls.d.ts",
+        "../node_modules/@types/node/url.d.ts"
+      ],
+      "../node_modules/@types/node/index.d.ts": [
+        "../node_modules/@types/node/base.d.ts"
+      ],
+      "../node_modules/@types/node/inspector.d.ts": [
+        "../node_modules/@types/node/events.d.ts"
+      ],
+      "../node_modules/@types/node/module.d.ts": [
+        "../node_modules/@types/node/url.d.ts"
+      ],
+      "../node_modules/@types/node/net.d.ts": [
+        "../node_modules/@types/node/dns.d.ts",
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/stream.d.ts"
+      ],
+      "../node_modules/@types/node/perf_hooks.d.ts": [
+        "../node_modules/@types/node/async_hooks.d.ts"
+      ],
+      "../node_modules/@types/node/process.d.ts": [
+        "../node_modules/@types/node/tty.d.ts"
+      ],
+      "../node_modules/@types/node/readline.d.ts": [
+        "../node_modules/@types/node/events.d.ts"
+      ],
+      "../node_modules/@types/node/repl.d.ts": [
+        "../node_modules/@types/node/readline.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/vm.d.ts"
+      ],
+      "../node_modules/@types/node/stream.d.ts": [
+        "../node_modules/@types/node/events.d.ts"
+      ],
+      "../node_modules/@types/node/tls.d.ts": [
+        "../node_modules/@types/node/net.d.ts"
+      ],
+      "../node_modules/@types/node/ts3.6/base.d.ts": [
+        "../node_modules/@types/node/async_hooks.d.ts",
+        "../node_modules/@types/node/buffer.d.ts",
+        "../node_modules/@types/node/child_process.d.ts",
+        "../node_modules/@types/node/cluster.d.ts",
+        "../node_modules/@types/node/console.d.ts",
+        "../node_modules/@types/node/constants.d.ts",
+        "../node_modules/@types/node/crypto.d.ts",
+        "../node_modules/@types/node/dgram.d.ts",
+        "../node_modules/@types/node/dns.d.ts",
+        "../node_modules/@types/node/domain.d.ts",
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/fs/promises.d.ts",
+        "../node_modules/@types/node/globals.d.ts",
+        "../node_modules/@types/node/globals.global.d.ts",
+        "../node_modules/@types/node/http.d.ts",
+        "../node_modules/@types/node/http2.d.ts",
+        "../node_modules/@types/node/https.d.ts",
+        "../node_modules/@types/node/inspector.d.ts",
+        "../node_modules/@types/node/module.d.ts",
+        "../node_modules/@types/node/net.d.ts",
+        "../node_modules/@types/node/os.d.ts",
+        "../node_modules/@types/node/path.d.ts",
+        "../node_modules/@types/node/perf_hooks.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/punycode.d.ts",
+        "../node_modules/@types/node/querystring.d.ts",
+        "../node_modules/@types/node/readline.d.ts",
+        "../node_modules/@types/node/repl.d.ts",
+        "../node_modules/@types/node/stream.d.ts",
+        "../node_modules/@types/node/string_decoder.d.ts",
+        "../node_modules/@types/node/timers.d.ts",
+        "../node_modules/@types/node/tls.d.ts",
+        "../node_modules/@types/node/trace_events.d.ts",
+        "../node_modules/@types/node/tty.d.ts",
+        "../node_modules/@types/node/url.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/v8.d.ts",
+        "../node_modules/@types/node/vm.d.ts",
+        "../node_modules/@types/node/wasi.d.ts",
+        "../node_modules/@types/node/worker_threads.d.ts",
+        "../node_modules/@types/node/zlib.d.ts"
+      ],
+      "../node_modules/@types/node/tty.d.ts": [
+        "../node_modules/@types/node/net.d.ts"
+      ],
+      "../node_modules/@types/node/url.d.ts": [
+        "../node_modules/@types/node/querystring.d.ts"
+      ],
+      "../node_modules/@types/node/v8.d.ts": [
+        "../node_modules/@types/node/stream.d.ts"
+      ],
+      "../node_modules/@types/node/worker_threads.d.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/fs/promises.d.ts",
+        "../node_modules/@types/node/stream.d.ts",
+        "../node_modules/@types/node/url.d.ts",
+        "../node_modules/@types/node/vm.d.ts"
+      ],
+      "../node_modules/@types/node/zlib.d.ts": [
+        "../node_modules/@types/node/stream.d.ts"
+      ],
+      "../node_modules/cids/dist/src/index.d.ts": [
+        "../node_modules/cids/dist/src/index.d.ts",
+        "../node_modules/multicodec/dist/src/generated-types.d.ts"
+      ],
+      "../node_modules/interface-datastore/dist/src/adapter.d.ts": [
+        "../node_modules/interface-datastore/dist/src/key.d.ts",
+        "../node_modules/interface-datastore/dist/src/types.d.ts",
+        "../node_modules/interface-store/dist/src/index.d.ts"
+      ],
+      "../node_modules/interface-datastore/dist/src/errors.d.ts": [
+        "../node_modules/err-code/dist/index.d.ts"
+      ],
+      "../node_modules/interface-datastore/dist/src/index.d.ts": [
+        "../node_modules/interface-datastore/dist/src/adapter.d.ts",
+        "../node_modules/interface-datastore/dist/src/errors.d.ts",
+        "../node_modules/interface-datastore/dist/src/key.d.ts",
+        "../node_modules/interface-datastore/dist/src/memory.d.ts",
+        "../node_modules/interface-datastore/dist/src/types.d.ts",
+        "../node_modules/interface-datastore/dist/src/utils.d.ts",
+        "../node_modules/interface-store/dist/src/index.d.ts"
+      ],
+      "../node_modules/interface-datastore/dist/src/key.d.ts": [
+        "../node_modules/uint8arrays/dist/to-string.d.ts"
+      ],
+      "../node_modules/interface-datastore/dist/src/memory.d.ts": [
+        "../node_modules/interface-datastore/dist/src/adapter.d.ts",
+        "../node_modules/interface-datastore/dist/src/types.d.ts",
+        "../node_modules/interface-store/dist/src/index.d.ts"
+      ],
+      "../node_modules/interface-datastore/dist/src/types.d.ts": [
+        "../node_modules/interface-datastore/dist/src/key.d.ts",
+        "../node_modules/interface-store/dist/src/index.d.ts"
+      ],
+      "../node_modules/interface-datastore/dist/src/utils.d.ts": [
+        "../node_modules/ipfs-utils/dist/src/temp-dir.d.ts"
+      ],
+      "../node_modules/it-concat/index.d.ts": [
+        "../node_modules/@types/bl/index.d.ts"
+      ],
+      "../node_modules/it-length-prefixed/dist/src/decode.d.ts": [
+        "../node_modules/it-length-prefixed/dist/src/types.d.ts"
+      ],
+      "../node_modules/it-length-prefixed/dist/src/encode.d.ts": [
+        "../node_modules/@types/node/buffer.d.ts",
+        "../node_modules/@types/node/index.d.ts",
+        "../node_modules/it-length-prefixed/dist/src/types.d.ts"
+      ],
+      "../node_modules/it-length-prefixed/dist/src/index.d.ts": [
+        "../node_modules/it-length-prefixed/dist/src/decode.d.ts",
+        "../node_modules/it-length-prefixed/dist/src/encode.d.ts",
+        "../node_modules/it-length-prefixed/dist/src/types.d.ts"
+      ],
+      "../node_modules/it-length-prefixed/dist/src/types.d.ts": [
+        "../node_modules/@types/node/index.d.ts"
+      ],
+      "../node_modules/it-pb-rpc/src/index.d.ts": [
+        "../node_modules/@types/bl/index.d.ts",
+        "../node_modules/@types/node/buffer.d.ts"
+      ],
+      "../node_modules/libp2p-gossipsub/node_modules/libp2p-interfaces/dist/src/connection/connection.d.ts": [
+        "../node_modules/libp2p-gossipsub/node_modules/libp2p-interfaces/dist/src/connection/status.d.ts",
+        "../node_modules/libp2p-gossipsub/node_modules/libp2p-interfaces/dist/src/stream-muxer/types.d.ts",
+        "../node_modules/multiaddr/dist/src/index.d.ts",
+        "../node_modules/peer-id/src/index.d.ts"
+      ],
+      "../node_modules/libp2p-gossipsub/node_modules/libp2p-interfaces/dist/src/pubsub/index.d.ts": [
+        "../node_modules/@types/bl/index.d.ts",
+        "../node_modules/@types/debug/index.d.ts",
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/libp2p-gossipsub/node_modules/libp2p-interfaces/dist/src/connection/connection.d.ts",
+        "../node_modules/libp2p-gossipsub/node_modules/libp2p-interfaces/dist/src/pubsub/message/rpc.d.ts",
+        "../node_modules/libp2p-gossipsub/node_modules/libp2p-interfaces/dist/src/pubsub/peer-streams.d.ts",
+        "../node_modules/libp2p-gossipsub/node_modules/libp2p-interfaces/dist/src/pubsub/signature-policy.d.ts",
+        "../node_modules/libp2p-gossipsub/node_modules/libp2p-interfaces/dist/src/pubsub/utils.d.ts",
+        "../node_modules/libp2p-gossipsub/node_modules/libp2p-interfaces/dist/src/stream-muxer/types.d.ts",
+        "../node_modules/peer-id/src/index.d.ts"
+      ],
+      "../node_modules/libp2p-gossipsub/node_modules/libp2p-interfaces/dist/src/pubsub/message/rpc.d.ts": [
+        "../node_modules/protobufjs/index.d.ts"
+      ],
+      "../node_modules/libp2p-gossipsub/node_modules/libp2p-interfaces/dist/src/pubsub/peer-streams.d.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/it-pushable/index.d.ts",
+        "../node_modules/libp2p-gossipsub/node_modules/libp2p-interfaces/dist/src/stream-muxer/types.d.ts",
+        "../node_modules/peer-id/src/index.d.ts"
+      ],
+      "../node_modules/libp2p-gossipsub/node_modules/libp2p-interfaces/dist/src/pubsub/utils.d.ts": [
+        "../node_modules/libp2p-gossipsub/node_modules/libp2p-interfaces/dist/src/pubsub/index.d.ts",
+        "../node_modules/libp2p-gossipsub/node_modules/libp2p-interfaces/dist/src/pubsub/message/rpc.d.ts"
+      ],
+      "../node_modules/libp2p-gossipsub/node_modules/libp2p-interfaces/dist/src/stream-muxer/types.d.ts": [
+        "../node_modules/@types/bl/index.d.ts"
+      ],
+      "../node_modules/libp2p-gossipsub/src/heartbeat.d.ts": [
+        "../node_modules/@types/node/index.d.ts",
+        "../node_modules/libp2p-gossipsub/src/index.d.ts"
+      ],
+      "../node_modules/libp2p-gossipsub/src/index.d.ts": [
+        "../node_modules/@types/debug/index.d.ts",
+        "../node_modules/@types/node/index.d.ts",
+        "../node_modules/libp2p-gossipsub/node_modules/libp2p-interfaces/dist/src/pubsub/index.d.ts",
+        "../node_modules/libp2p-gossipsub/node_modules/libp2p-interfaces/dist/src/pubsub/peer-streams.d.ts",
+        "../node_modules/libp2p-gossipsub/src/heartbeat.d.ts",
+        "../node_modules/libp2p-gossipsub/src/interfaces.d.ts",
+        "../node_modules/libp2p-gossipsub/src/message-cache.d.ts",
+        "../node_modules/libp2p-gossipsub/src/message/rpc.d.ts",
+        "../node_modules/libp2p-gossipsub/src/score/index.d.ts",
+        "../node_modules/libp2p-gossipsub/src/tracer.d.ts",
+        "../node_modules/libp2p/dist/src/index.d.ts",
+        "../node_modules/peer-id/src/index.d.ts"
+      ],
+      "../node_modules/libp2p-gossipsub/src/interfaces.d.ts": [
+        "../node_modules/libp2p-gossipsub/node_modules/libp2p-interfaces/dist/src/pubsub/index.d.ts",
+        "../node_modules/multiaddr/dist/src/index.d.ts",
+        "../node_modules/peer-id/src/index.d.ts"
+      ],
+      "../node_modules/libp2p-gossipsub/src/message-cache.d.ts": [
+        "../node_modules/libp2p-gossipsub/node_modules/libp2p-interfaces/dist/src/pubsub/index.d.ts",
+        "../node_modules/libp2p-gossipsub/src/interfaces.d.ts"
+      ],
+      "../node_modules/libp2p-gossipsub/src/message/rpc.d.ts": [
+        "../node_modules/protobufjs/index.d.ts"
+      ],
+      "../node_modules/libp2p-gossipsub/src/score/index.d.ts": [
+        "../node_modules/libp2p-gossipsub/src/score/peer-score-params.d.ts",
+        "../node_modules/libp2p-gossipsub/src/score/peer-score-thresholds.d.ts",
+        "../node_modules/libp2p-gossipsub/src/score/peer-score.d.ts"
+      ],
+      "../node_modules/libp2p-gossipsub/src/score/peer-score.d.ts": [
+        "../node_modules/@types/node/index.d.ts",
+        "../node_modules/libp2p-gossipsub/node_modules/libp2p-interfaces/dist/src/pubsub/index.d.ts",
+        "../node_modules/libp2p-gossipsub/src/interfaces.d.ts",
+        "../node_modules/libp2p-gossipsub/src/score/message-deliveries.d.ts",
+        "../node_modules/libp2p-gossipsub/src/score/peer-score-params.d.ts",
+        "../node_modules/libp2p-gossipsub/src/score/peer-stats.d.ts",
+        "../node_modules/libp2p/dist/src/connection-manager/index.d.ts"
+      ],
+      "../node_modules/libp2p-gossipsub/src/score/peer-stats.d.ts": [
+        "../node_modules/libp2p-gossipsub/src/score/peer-score-params.d.ts"
+      ],
+      "../node_modules/libp2p-gossipsub/src/tracer.d.ts": [
+        "../node_modules/libp2p-gossipsub/node_modules/libp2p-interfaces/dist/src/pubsub/index.d.ts",
+        "../node_modules/libp2p-gossipsub/src/interfaces.d.ts"
+      ],
+      "../node_modules/libp2p-gossipsub/src/utils/create-gossip-rpc.d.ts": [
+        "../node_modules/libp2p-gossipsub/src/message/rpc.d.ts"
+      ],
+      "../node_modules/libp2p-gossipsub/src/utils/index.d.ts": [
+        "../node_modules/libp2p-gossipsub/src/utils/create-gossip-rpc.d.ts",
+        "../node_modules/libp2p-gossipsub/src/utils/has-gossip-protocol.d.ts",
+        "../node_modules/libp2p-gossipsub/src/utils/messageIdToString.d.ts",
+        "../node_modules/libp2p-gossipsub/src/utils/shuffle.d.ts"
+      ],
+      "../node_modules/libp2p-interfaces/dist/src/connection/connection.d.ts": [
+        "../node_modules/libp2p-interfaces/dist/src/connection/status.d.ts",
+        "../node_modules/libp2p-interfaces/dist/src/stream-muxer/types.d.ts",
+        "../node_modules/multiaddr/dist/src/index.d.ts",
+        "../node_modules/peer-id/src/index.d.ts"
+      ],
+      "../node_modules/libp2p-interfaces/dist/src/connection/index.d.ts": [
+        "../node_modules/libp2p-interfaces/dist/src/connection/connection.d.ts"
+      ],
+      "../node_modules/libp2p-interfaces/dist/src/content-routing/types.d.ts": [
+        "../node_modules/cids/dist/src/index.d.ts",
+        "../node_modules/multiaddr/dist/src/index.d.ts",
+        "../node_modules/peer-id/src/index.d.ts"
+      ],
+      "../node_modules/libp2p-interfaces/dist/src/crypto/types.d.ts": [
+        "../node_modules/libp2p-interfaces/dist/src/transport/types.d.ts",
+        "../node_modules/peer-id/src/index.d.ts"
+      ],
+      "../node_modules/libp2p-interfaces/dist/src/peer-discovery/types.d.ts": [
+        "../node_modules/@types/node/events.d.ts"
+      ],
+      "../node_modules/libp2p-interfaces/dist/src/peer-routing/types.d.ts": [
+        "../node_modules/multiaddr/dist/src/index.d.ts",
+        "../node_modules/peer-id/src/index.d.ts"
+      ],
+      "../node_modules/libp2p-interfaces/dist/src/pubsub/index.d.ts": [
+        "../node_modules/@types/bl/index.d.ts",
+        "../node_modules/@types/debug/index.d.ts",
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/libp2p-interfaces/dist/src/connection/connection.d.ts",
+        "../node_modules/libp2p-interfaces/dist/src/pubsub/message/rpc.d.ts",
+        "../node_modules/libp2p-interfaces/dist/src/pubsub/peer-streams.d.ts",
+        "../node_modules/libp2p-interfaces/dist/src/pubsub/signature-policy.d.ts",
+        "../node_modules/libp2p-interfaces/dist/src/pubsub/utils.d.ts",
+        "../node_modules/libp2p-interfaces/dist/src/stream-muxer/types.d.ts",
+        "../node_modules/peer-id/src/index.d.ts"
+      ],
+      "../node_modules/libp2p-interfaces/dist/src/pubsub/message/rpc.d.ts": [
+        "../node_modules/protobufjs/index.d.ts"
+      ],
+      "../node_modules/libp2p-interfaces/dist/src/pubsub/peer-streams.d.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/it-pushable/index.d.ts",
+        "../node_modules/libp2p-interfaces/dist/src/stream-muxer/types.d.ts",
+        "../node_modules/peer-id/src/index.d.ts"
+      ],
+      "../node_modules/libp2p-interfaces/dist/src/pubsub/utils.d.ts": [
+        "../node_modules/libp2p-interfaces/dist/src/pubsub/index.d.ts",
+        "../node_modules/libp2p-interfaces/dist/src/pubsub/message/rpc.d.ts"
+      ],
+      "../node_modules/libp2p-interfaces/dist/src/stream-muxer/types.d.ts": [
+        "../node_modules/@types/bl/index.d.ts"
+      ],
+      "../node_modules/libp2p-interfaces/dist/src/topology/index.d.ts": [
+        "../node_modules/libp2p-interfaces/dist/src/connection/connection.d.ts",
+        "../node_modules/peer-id/src/index.d.ts"
+      ],
+      "../node_modules/libp2p-interfaces/dist/src/transport/types.d.ts": [
+        "../node_modules/@types/bl/index.d.ts",
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/libp2p-interfaces/dist/src/connection/connection.d.ts",
+        "../node_modules/libp2p-interfaces/dist/src/stream-muxer/types.d.ts",
+        "../node_modules/multiaddr/dist/src/index.d.ts"
+      ],
+      "../node_modules/libp2p-noise/dist/src/@types/basic.d.ts": [
+        "../node_modules/@types/node/buffer.d.ts"
+      ],
+      "../node_modules/libp2p-noise/dist/src/@types/libp2p.d.ts": [
+        "../node_modules/libp2p-noise/dist/src/@types/basic.d.ts",
+        "../node_modules/peer-id/src/index.d.ts"
+      ],
+      "../node_modules/libp2p-noise/dist/src/noise.d.ts": [
+        "../node_modules/it-pb-rpc/src/index.d.ts",
+        "../node_modules/libp2p-noise/dist/src/@types/basic.d.ts",
+        "../node_modules/libp2p-noise/dist/src/@types/libp2p.d.ts",
+        "../node_modules/peer-id/src/index.d.ts"
+      ],
+      "../node_modules/libp2p-utils/dist/src/address-sort.d.ts": [
+        "../node_modules/multiaddr/dist/src/index.d.ts"
+      ],
+      "../node_modules/libp2p/dist/src/address-manager/index.d.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/multiaddr/dist/src/index.d.ts",
+        "../node_modules/peer-id/src/index.d.ts"
+      ],
+      "../node_modules/libp2p/dist/src/circuit/auto-relay.d.ts": [
+        "../node_modules/libp2p-interfaces/dist/src/connection/connection.d.ts",
+        "../node_modules/libp2p/dist/src/connection-manager/index.d.ts",
+        "../node_modules/libp2p/dist/src/index.d.ts",
+        "../node_modules/libp2p/dist/src/peer-store/address-book.d.ts",
+        "../node_modules/libp2p/dist/src/peer-store/index.d.ts",
+        "../node_modules/libp2p/dist/src/transport-manager.d.ts",
+        "../node_modules/peer-id/src/index.d.ts"
+      ],
+      "../node_modules/libp2p/dist/src/circuit/index.d.ts": [
+        "../node_modules/libp2p/dist/src/circuit/auto-relay.d.ts",
+        "../node_modules/libp2p/dist/src/index.d.ts"
+      ],
+      "../node_modules/libp2p/dist/src/connection-manager/index.d.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/libp2p-interfaces/dist/src/connection/connection.d.ts",
+        "../node_modules/libp2p/dist/src/connection-manager/latency-monitor.d.ts",
+        "../node_modules/libp2p/dist/src/index.d.ts",
+        "../node_modules/peer-id/src/index.d.ts"
+      ],
+      "../node_modules/libp2p/dist/src/connection-manager/latency-monitor.d.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/libp2p/dist/src/connection-manager/visibility-change-emitter.d.ts"
+      ],
+      "../node_modules/libp2p/dist/src/connection-manager/visibility-change-emitter.d.ts": [
+        "../node_modules/@types/node/events.d.ts"
+      ],
+      "../node_modules/libp2p/dist/src/content-routing/index.d.ts": [
+        "../node_modules/cids/dist/src/index.d.ts",
+        "../node_modules/libp2p-interfaces/dist/src/content-routing/types.d.ts",
+        "../node_modules/libp2p/dist/src/index.d.ts",
+        "../node_modules/multiaddr/dist/src/index.d.ts",
+        "../node_modules/peer-id/src/index.d.ts"
+      ],
+      "../node_modules/libp2p/dist/src/dialer/dial-request.d.ts": [
+        "../node_modules/libp2p-interfaces/dist/src/connection/connection.d.ts",
+        "../node_modules/libp2p/dist/src/dialer/index.d.ts",
+        "../node_modules/multiaddr/dist/src/index.d.ts"
+      ],
+      "../node_modules/libp2p/dist/src/dialer/index.d.ts": [
+        "../node_modules/libp2p-interfaces/dist/src/connection/connection.d.ts",
+        "../node_modules/libp2p/dist/src/dialer/dial-request.d.ts",
+        "../node_modules/libp2p/dist/src/peer-store/address-book.d.ts",
+        "../node_modules/libp2p/dist/src/peer-store/index.d.ts",
+        "../node_modules/libp2p/dist/src/transport-manager.d.ts",
+        "../node_modules/multiaddr/dist/src/index.d.ts",
+        "../node_modules/peer-id/src/index.d.ts"
+      ],
+      "../node_modules/libp2p/dist/src/identify/index.d.ts": [
+        "../node_modules/libp2p-interfaces/dist/src/connection/connection.d.ts",
+        "../node_modules/libp2p-interfaces/dist/src/stream-muxer/types.d.ts",
+        "../node_modules/libp2p/dist/src/address-manager/index.d.ts",
+        "../node_modules/libp2p/dist/src/connection-manager/index.d.ts",
+        "../node_modules/libp2p/dist/src/identify/consts.d.ts",
+        "../node_modules/libp2p/dist/src/identify/message.d.ts",
+        "../node_modules/libp2p/dist/src/index.d.ts",
+        "../node_modules/libp2p/dist/src/peer-store/index.d.ts",
+        "../node_modules/multiaddr/dist/src/index.d.ts",
+        "../node_modules/peer-id/src/index.d.ts"
+      ],
+      "../node_modules/libp2p/dist/src/identify/message.d.ts": [
+        "../node_modules/protobufjs/index.d.ts"
+      ],
+      "../node_modules/libp2p/dist/src/index.d.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/interface-datastore/dist/src/index.d.ts",
+        "../node_modules/interface-datastore/dist/src/types.d.ts",
+        "../node_modules/libp2p-interfaces/dist/src/connection/connection.d.ts",
+        "../node_modules/libp2p-interfaces/dist/src/content-routing/types.d.ts",
+        "../node_modules/libp2p-interfaces/dist/src/crypto/types.d.ts",
+        "../node_modules/libp2p-interfaces/dist/src/peer-discovery/types.d.ts",
+        "../node_modules/libp2p-interfaces/dist/src/peer-routing/types.d.ts",
+        "../node_modules/libp2p-interfaces/dist/src/pubsub/index.d.ts",
+        "../node_modules/libp2p-interfaces/dist/src/stream-muxer/types.d.ts",
+        "../node_modules/libp2p-interfaces/dist/src/transport/types.d.ts",
+        "../node_modules/libp2p-interfaces/dist/src/types.d.ts",
+        "../node_modules/libp2p-utils/dist/src/address-sort.d.ts",
+        "../node_modules/libp2p/dist/src/address-manager/index.d.ts",
+        "../node_modules/libp2p/dist/src/circuit/index.d.ts",
+        "../node_modules/libp2p/dist/src/connection-manager/index.d.ts",
+        "../node_modules/libp2p/dist/src/content-routing/index.d.ts",
+        "../node_modules/libp2p/dist/src/dialer/index.d.ts",
+        "../node_modules/libp2p/dist/src/identify/index.d.ts",
+        "../node_modules/libp2p/dist/src/keychain/index.d.ts",
+        "../node_modules/libp2p/dist/src/metrics/index.d.ts",
+        "../node_modules/libp2p/dist/src/nat-manager.d.ts",
+        "../node_modules/libp2p/dist/src/peer-routing.d.ts",
+        "../node_modules/libp2p/dist/src/peer-store/index.d.ts",
+        "../node_modules/libp2p/dist/src/peer-store/persistent/index.d.ts",
+        "../node_modules/libp2p/dist/src/pnet/index.d.ts",
+        "../node_modules/libp2p/dist/src/registrar.d.ts",
+        "../node_modules/libp2p/dist/src/transport-manager.d.ts",
+        "../node_modules/libp2p/dist/src/upgrader.d.ts",
+        "../node_modules/multiaddr/dist/src/index.d.ts",
+        "../node_modules/peer-id/src/index.d.ts"
+      ],
+      "../node_modules/libp2p/dist/src/keychain/cms.d.ts": [
+        "../node_modules/libp2p/dist/src/keychain/index.d.ts"
+      ],
+      "../node_modules/libp2p/dist/src/keychain/index.d.ts": [
+        "../node_modules/interface-datastore/dist/src/index.d.ts",
+        "../node_modules/interface-datastore/dist/src/types.d.ts",
+        "../node_modules/libp2p/dist/src/keychain/cms.d.ts",
+        "../node_modules/peer-id/src/index.d.ts"
+      ],
+      "../node_modules/libp2p/dist/src/metrics/index.d.ts": [
+        "../node_modules/libp2p-interfaces/dist/src/transport/types.d.ts",
+        "../node_modules/libp2p/dist/src/connection-manager/index.d.ts",
+        "../node_modules/libp2p/dist/src/metrics/stats.d.ts",
+        "../node_modules/peer-id/src/index.d.ts"
+      ],
+      "../node_modules/libp2p/dist/src/metrics/stats.d.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@vascosantos/moving-average/index.d.ts",
+        "../node_modules/bignumber.js/bignumber.d.ts"
+      ],
+      "../node_modules/libp2p/dist/src/nat-manager.d.ts": [
+        "../node_modules/libp2p/dist/src/address-manager/index.d.ts",
+        "../node_modules/libp2p/dist/src/transport-manager.d.ts",
+        "../node_modules/peer-id/src/index.d.ts"
+      ],
+      "../node_modules/libp2p/dist/src/peer-routing.d.ts": [
+        "../node_modules/libp2p-interfaces/dist/src/peer-routing/types.d.ts",
+        "../node_modules/libp2p/dist/src/index.d.ts",
+        "../node_modules/libp2p/dist/src/peer-store/index.d.ts",
+        "../node_modules/multiaddr/dist/src/index.d.ts",
+        "../node_modules/peer-id/src/index.d.ts"
+      ],
+      "../node_modules/libp2p/dist/src/peer-store/address-book.d.ts": [
+        "../node_modules/libp2p/dist/src/peer-store/book.d.ts",
+        "../node_modules/libp2p/dist/src/peer-store/index.d.ts",
+        "../node_modules/libp2p/dist/src/record/envelope/index.d.ts",
+        "../node_modules/multiaddr/dist/src/index.d.ts",
+        "../node_modules/peer-id/src/index.d.ts"
+      ],
+      "../node_modules/libp2p/dist/src/peer-store/book.d.ts": [
+        "../node_modules/libp2p/dist/src/peer-store/index.d.ts",
+        "../node_modules/peer-id/src/index.d.ts"
+      ],
+      "../node_modules/libp2p/dist/src/peer-store/index.d.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/libp2p/dist/src/peer-store/address-book.d.ts",
+        "../node_modules/libp2p/dist/src/peer-store/key-book.d.ts",
+        "../node_modules/libp2p/dist/src/peer-store/metadata-book.d.ts",
+        "../node_modules/libp2p/dist/src/peer-store/proto-book.d.ts",
+        "../node_modules/peer-id/src/index.d.ts"
+      ],
+      "../node_modules/libp2p/dist/src/peer-store/key-book.d.ts": [
+        "../node_modules/libp2p-crypto/src/index.d.ts",
+        "../node_modules/libp2p/dist/src/peer-store/book.d.ts",
+        "../node_modules/libp2p/dist/src/peer-store/index.d.ts"
+      ],
+      "../node_modules/libp2p/dist/src/peer-store/metadata-book.d.ts": [
+        "../node_modules/libp2p/dist/src/peer-store/book.d.ts",
+        "../node_modules/libp2p/dist/src/peer-store/index.d.ts",
+        "../node_modules/peer-id/src/index.d.ts"
+      ],
+      "../node_modules/libp2p/dist/src/peer-store/persistent/index.d.ts": [
+        "../node_modules/interface-datastore/dist/src/index.d.ts",
+        "../node_modules/interface-datastore/dist/src/types.d.ts",
+        "../node_modules/libp2p/dist/src/peer-store/address-book.d.ts",
+        "../node_modules/libp2p/dist/src/peer-store/index.d.ts",
+        "../node_modules/peer-id/src/index.d.ts"
+      ],
+      "../node_modules/libp2p/dist/src/peer-store/proto-book.d.ts": [
+        "../node_modules/libp2p/dist/src/peer-store/book.d.ts",
+        "../node_modules/libp2p/dist/src/peer-store/index.d.ts",
+        "../node_modules/peer-id/src/index.d.ts"
+      ],
+      "../node_modules/libp2p/dist/src/ping/index.d.ts": [
+        "../node_modules/libp2p-interfaces/dist/src/stream-muxer/types.d.ts",
+        "../node_modules/libp2p/dist/src/index.d.ts",
+        "../node_modules/multiaddr/dist/src/index.d.ts",
+        "../node_modules/peer-id/src/index.d.ts"
+      ],
+      "../node_modules/libp2p/dist/src/pnet/index.d.ts": [
+        "../node_modules/libp2p-interfaces/dist/src/transport/types.d.ts",
+        "../node_modules/libp2p/dist/src/pnet/errors.d.ts",
+        "../node_modules/libp2p/dist/src/pnet/key-generator.d.ts"
+      ],
+      "../node_modules/libp2p/dist/src/record/envelope/index.d.ts": [
+        "../node_modules/libp2p-interfaces/dist/src/record/types.d.ts",
+        "../node_modules/peer-id/src/index.d.ts"
+      ],
+      "../node_modules/libp2p/dist/src/registrar.d.ts": [
+        "../node_modules/libp2p-interfaces/dist/src/connection/connection.d.ts",
+        "../node_modules/libp2p-interfaces/dist/src/topology/index.d.ts",
+        "../node_modules/libp2p/dist/src/connection-manager/index.d.ts",
+        "../node_modules/libp2p/dist/src/index.d.ts",
+        "../node_modules/libp2p/dist/src/peer-store/index.d.ts",
+        "../node_modules/peer-id/src/index.d.ts"
+      ],
+      "../node_modules/libp2p/dist/src/transport-manager.d.ts": [
+        "../node_modules/libp2p-interfaces/dist/src/connection/connection.d.ts",
+        "../node_modules/libp2p-interfaces/dist/src/transport/types.d.ts",
+        "../node_modules/libp2p/dist/src/index.d.ts",
+        "../node_modules/libp2p/dist/src/upgrader.d.ts",
+        "../node_modules/multiaddr/dist/src/index.d.ts"
+      ],
+      "../node_modules/libp2p/dist/src/upgrader.d.ts": [
+        "../node_modules/libp2p-interfaces/dist/src/connection/connection.d.ts",
+        "../node_modules/libp2p-interfaces/dist/src/connection/index.d.ts",
+        "../node_modules/libp2p-interfaces/dist/src/crypto/types.d.ts",
+        "../node_modules/libp2p-interfaces/dist/src/stream-muxer/types.d.ts",
+        "../node_modules/libp2p-interfaces/dist/src/transport/types.d.ts",
+        "../node_modules/libp2p/dist/src/metrics/index.d.ts",
+        "../node_modules/libp2p/dist/src/pnet/index.d.ts",
+        "../node_modules/multiaddr/dist/src/index.d.ts",
+        "../node_modules/peer-id/src/index.d.ts"
+      ],
+      "../node_modules/multiaddr/dist/src/index.d.ts": [
+        "../node_modules/multiaddr/dist/src/protocols-table.d.ts",
+        "../node_modules/multiaddr/dist/src/types.d.ts"
+      ],
+      "../node_modules/multiaddr/dist/src/protocols-table.d.ts": [
+        "../node_modules/multiaddr/dist/src/types.d.ts"
+      ],
+      "../node_modules/peer-id/src/index.d.ts": [
+        "../node_modules/cids/dist/src/index.d.ts",
+        "../node_modules/libp2p-crypto/src/index.d.ts"
+      ],
+      "../node_modules/protobufjs/minimal.d.ts": [
+        "../node_modules/protobufjs/index.d.ts"
+      ],
+      "../node_modules/uint8arrays/dist/to-string.d.ts": [
+        "../node_modules/multibase/src/types.d.ts"
+      ],
+      "../src/index.ts": [
+        "../src/lib/chat_message/index.ts",
+        "../src/lib/discover.ts",
+        "../src/lib/waku.ts",
+        "../src/lib/waku_light_push/index.ts",
+        "../src/lib/waku_message.ts",
+        "../src/lib/waku_relay/index.ts",
+        "../src/lib/waku_store/index.ts",
+        "../src/proto/index.ts"
+      ],
+      "../src/lib/chat_message/index.ts": [
+        "../src/proto/chat/v2/chat_message.ts"
+      ],
+      "../src/lib/select_peer.ts": [
+        "../node_modules/libp2p/dist/src/index.d.ts",
+        "../node_modules/libp2p/dist/src/peer-store/index.d.ts"
+      ],
+      "../src/lib/waku.ts": [
+        "../node_modules/libp2p-interfaces/dist/src/stream-muxer/types.d.ts",
+        "../node_modules/libp2p-noise/dist/src/@types/basic.d.ts",
+        "../node_modules/libp2p/dist/src/index.d.ts",
+        "../node_modules/multiaddr/dist/src/index.d.ts",
+        "../node_modules/peer-id/src/index.d.ts",
+        "../src/lib/waku_light_push/index.ts",
+        "../src/lib/waku_relay/index.ts",
+        "../src/lib/waku_store/index.ts"
+      ],
+      "../src/lib/waku_light_push/index.ts": [
+        "../node_modules/libp2p/dist/src/index.d.ts",
+        "../node_modules/peer-id/src/index.d.ts",
+        "../src/lib/waku_message.ts",
+        "../src/proto/waku/v2/light_push.ts"
+      ],
+      "../src/lib/waku_light_push/push_rpc.ts": [
+        "../src/lib/waku_message.ts",
+        "../src/proto/waku/v2/light_push.ts"
+      ],
+      "../src/lib/waku_message.ts": [
+        "../src/proto/waku/v2/message.ts"
+      ],
+      "../src/lib/waku_relay/get_relay_peers.ts": [
+        "../node_modules/libp2p-gossipsub/src/index.d.ts"
+      ],
+      "../src/lib/waku_relay/index.ts": [
+        "../node_modules/libp2p-gossipsub/src/index.d.ts",
+        "../node_modules/libp2p-gossipsub/src/interfaces.d.ts",
+        "../node_modules/libp2p-gossipsub/src/message-cache.d.ts",
+        "../node_modules/libp2p-gossipsub/src/message/rpc.d.ts",
+        "../node_modules/libp2p-gossipsub/src/score/index.d.ts",
+        "../node_modules/libp2p-interfaces/dist/src/pubsub/index.d.ts",
+        "../node_modules/libp2p/dist/src/index.d.ts",
+        "../src/lib/waku.ts",
+        "../src/lib/waku_message.ts",
+        "../src/lib/waku_relay/constants.ts",
+        "../src/lib/waku_relay/relay_heartbeat.ts"
+      ],
+      "../src/lib/waku_relay/relay_heartbeat.ts": [
+        "../node_modules/libp2p-gossipsub/src/heartbeat.d.ts",
+        "../node_modules/libp2p-gossipsub/src/index.d.ts"
+      ],
+      "../src/lib/waku_store/history_rpc.ts": [
+        "../src/proto/waku/v2/store.ts"
+      ],
+      "../src/lib/waku_store/index.ts": [
+        "../node_modules/libp2p/dist/src/index.d.ts",
+        "../node_modules/peer-id/src/index.d.ts",
+        "../src/lib/waku_message.ts",
+        "../src/lib/waku_store/history_rpc.ts"
+      ],
+      "../src/proto/chat/v2/chat_message.ts": [
+        "../node_modules/protobufjs/minimal.d.ts"
+      ],
+      "../src/proto/index.ts": [
+        "../src/proto/chat/v2/chat_message.ts",
+        "../src/proto/waku/v2/message.ts",
+        "../src/proto/waku/v2/store.ts"
+      ],
+      "../src/proto/waku/v2/light_push.ts": [
+        "../node_modules/protobufjs/minimal.d.ts",
+        "../src/proto/waku/v2/message.ts"
+      ],
+      "../src/proto/waku/v2/message.ts": [
+        "../node_modules/protobufjs/minimal.d.ts"
+      ],
+      "../src/proto/waku/v2/store.ts": [
+        "../node_modules/protobufjs/minimal.d.ts",
+        "../src/proto/waku/v2/message.ts"
+      ]
+    },
+    "semanticDiagnosticsPerFile": [
+      "../node_modules/@types/bl/index.d.ts",
+      "../node_modules/@types/debug/index.d.ts",
+      "../node_modules/@types/long/index.d.ts",
+      "../node_modules/@types/mocha/index.d.ts",
+      "../node_modules/@types/node/assert.d.ts",
+      "../node_modules/@types/node/async_hooks.d.ts",
+      "../node_modules/@types/node/base.d.ts",
+      "../node_modules/@types/node/buffer.d.ts",
+      "../node_modules/@types/node/child_process.d.ts",
+      "../node_modules/@types/node/cluster.d.ts",
+      "../node_modules/@types/node/console.d.ts",
+      "../node_modules/@types/node/constants.d.ts",
+      "../node_modules/@types/node/crypto.d.ts",
+      "../node_modules/@types/node/dgram.d.ts",
+      "../node_modules/@types/node/dns.d.ts",
+      "../node_modules/@types/node/domain.d.ts",
+      "../node_modules/@types/node/events.d.ts",
+      "../node_modules/@types/node/fs.d.ts",
+      "../node_modules/@types/node/fs/promises.d.ts",
+      "../node_modules/@types/node/globals.d.ts",
+      "../node_modules/@types/node/globals.global.d.ts",
+      "../node_modules/@types/node/http.d.ts",
+      "../node_modules/@types/node/http2.d.ts",
+      "../node_modules/@types/node/https.d.ts",
+      "../node_modules/@types/node/index.d.ts",
+      "../node_modules/@types/node/inspector.d.ts",
+      "../node_modules/@types/node/module.d.ts",
+      "../node_modules/@types/node/net.d.ts",
+      "../node_modules/@types/node/os.d.ts",
+      "../node_modules/@types/node/path.d.ts",
+      "../node_modules/@types/node/perf_hooks.d.ts",
+      "../node_modules/@types/node/process.d.ts",
+      "../node_modules/@types/node/punycode.d.ts",
+      "../node_modules/@types/node/querystring.d.ts",
+      "../node_modules/@types/node/readline.d.ts",
+      "../node_modules/@types/node/repl.d.ts",
+      "../node_modules/@types/node/stream.d.ts",
+      "../node_modules/@types/node/string_decoder.d.ts",
+      "../node_modules/@types/node/timers.d.ts",
+      "../node_modules/@types/node/tls.d.ts",
+      "../node_modules/@types/node/trace_events.d.ts",
+      "../node_modules/@types/node/ts3.6/base.d.ts",
+      "../node_modules/@types/node/tty.d.ts",
+      "../node_modules/@types/node/url.d.ts",
+      "../node_modules/@types/node/util.d.ts",
+      "../node_modules/@types/node/v8.d.ts",
+      "../node_modules/@types/node/vm.d.ts",
+      "../node_modules/@types/node/wasi.d.ts",
+      "../node_modules/@types/node/worker_threads.d.ts",
+      "../node_modules/@types/node/zlib.d.ts",
+      "../node_modules/@types/uuid/index.d.ts",
+      "../node_modules/@vascosantos/moving-average/index.d.ts",
+      "../node_modules/axios/index.d.ts",
+      "../node_modules/bignumber.js/bignumber.d.ts",
+      "../node_modules/buffer/index.d.ts",
+      "../node_modules/cids/dist/src/index.d.ts",
+      "../node_modules/err-code/dist/index.d.ts",
+      "../node_modules/interface-datastore/dist/src/adapter.d.ts",
+      "../node_modules/interface-datastore/dist/src/errors.d.ts",
+      "../node_modules/interface-datastore/dist/src/index.d.ts",
+      "../node_modules/interface-datastore/dist/src/key.d.ts",
+      "../node_modules/interface-datastore/dist/src/memory.d.ts",
+      "../node_modules/interface-datastore/dist/src/types.d.ts",
+      "../node_modules/interface-datastore/dist/src/utils.d.ts",
+      "../node_modules/interface-store/dist/src/index.d.ts",
+      "../node_modules/ipfs-utils/dist/src/temp-dir.d.ts",
+      "../node_modules/it-concat/index.d.ts",
+      "../node_modules/it-length-prefixed/dist/src/decode.d.ts",
+      "../node_modules/it-length-prefixed/dist/src/encode.d.ts",
+      "../node_modules/it-length-prefixed/dist/src/index.d.ts",
+      "../node_modules/it-length-prefixed/dist/src/types.d.ts",
+      "../node_modules/it-pb-rpc/src/index.d.ts",
+      "../node_modules/it-pipe/index.d.ts",
+      "../node_modules/it-pushable/index.d.ts",
+      "../node_modules/libp2p-crypto/src/index.d.ts",
+      "../node_modules/libp2p-gossipsub/node_modules/libp2p-interfaces/dist/src/connection/connection.d.ts",
+      "../node_modules/libp2p-gossipsub/node_modules/libp2p-interfaces/dist/src/connection/status.d.ts",
+      "../node_modules/libp2p-gossipsub/node_modules/libp2p-interfaces/dist/src/pubsub/index.d.ts",
+      "../node_modules/libp2p-gossipsub/node_modules/libp2p-interfaces/dist/src/pubsub/message/rpc.d.ts",
+      "../node_modules/libp2p-gossipsub/node_modules/libp2p-interfaces/dist/src/pubsub/peer-streams.d.ts",
+      "../node_modules/libp2p-gossipsub/node_modules/libp2p-interfaces/dist/src/pubsub/signature-policy.d.ts",
+      "../node_modules/libp2p-gossipsub/node_modules/libp2p-interfaces/dist/src/pubsub/utils.d.ts",
+      "../node_modules/libp2p-gossipsub/node_modules/libp2p-interfaces/dist/src/stream-muxer/types.d.ts",
+      "../node_modules/libp2p-gossipsub/src/heartbeat.d.ts",
+      "../node_modules/libp2p-gossipsub/src/index.d.ts",
+      "../node_modules/libp2p-gossipsub/src/interfaces.d.ts",
+      "../node_modules/libp2p-gossipsub/src/message-cache.d.ts",
+      "../node_modules/libp2p-gossipsub/src/message/rpc.d.ts",
+      "../node_modules/libp2p-gossipsub/src/score/index.d.ts",
+      "../node_modules/libp2p-gossipsub/src/score/message-deliveries.d.ts",
+      "../node_modules/libp2p-gossipsub/src/score/peer-score-params.d.ts",
+      "../node_modules/libp2p-gossipsub/src/score/peer-score-thresholds.d.ts",
+      "../node_modules/libp2p-gossipsub/src/score/peer-score.d.ts",
+      "../node_modules/libp2p-gossipsub/src/score/peer-stats.d.ts",
+      "../node_modules/libp2p-gossipsub/src/tracer.d.ts",
+      "../node_modules/libp2p-gossipsub/src/utils/create-gossip-rpc.d.ts",
+      "../node_modules/libp2p-gossipsub/src/utils/has-gossip-protocol.d.ts",
+      "../node_modules/libp2p-gossipsub/src/utils/index.d.ts",
+      "../node_modules/libp2p-gossipsub/src/utils/messageIdToString.d.ts",
+      "../node_modules/libp2p-gossipsub/src/utils/shuffle.d.ts",
+      "../node_modules/libp2p-interfaces/dist/src/connection/connection.d.ts",
+      "../node_modules/libp2p-interfaces/dist/src/connection/index.d.ts",
+      "../node_modules/libp2p-interfaces/dist/src/connection/status.d.ts",
+      "../node_modules/libp2p-interfaces/dist/src/content-routing/types.d.ts",
+      "../node_modules/libp2p-interfaces/dist/src/crypto/types.d.ts",
+      "../node_modules/libp2p-interfaces/dist/src/peer-discovery/types.d.ts",
+      "../node_modules/libp2p-interfaces/dist/src/peer-routing/types.d.ts",
+      "../node_modules/libp2p-interfaces/dist/src/pubsub/index.d.ts",
+      "../node_modules/libp2p-interfaces/dist/src/pubsub/message/rpc.d.ts",
+      "../node_modules/libp2p-interfaces/dist/src/pubsub/peer-streams.d.ts",
+      "../node_modules/libp2p-interfaces/dist/src/pubsub/signature-policy.d.ts",
+      "../node_modules/libp2p-interfaces/dist/src/pubsub/utils.d.ts",
+      "../node_modules/libp2p-interfaces/dist/src/record/types.d.ts",
+      "../node_modules/libp2p-interfaces/dist/src/stream-muxer/types.d.ts",
+      "../node_modules/libp2p-interfaces/dist/src/topology/index.d.ts",
+      "../node_modules/libp2p-interfaces/dist/src/transport/types.d.ts",
+      "../node_modules/libp2p-interfaces/dist/src/types.d.ts",
+      "../node_modules/libp2p-noise/dist/src/@types/basic.d.ts",
+      "../node_modules/libp2p-noise/dist/src/@types/libp2p.d.ts",
+      "../node_modules/libp2p-noise/dist/src/noise.d.ts",
+      "../node_modules/libp2p-utils/dist/src/address-sort.d.ts",
+      "../node_modules/libp2p/dist/src/address-manager/index.d.ts",
+      "../node_modules/libp2p/dist/src/circuit/auto-relay.d.ts",
+      "../node_modules/libp2p/dist/src/circuit/index.d.ts",
+      "../node_modules/libp2p/dist/src/connection-manager/index.d.ts",
+      "../node_modules/libp2p/dist/src/connection-manager/latency-monitor.d.ts",
+      "../node_modules/libp2p/dist/src/connection-manager/visibility-change-emitter.d.ts",
+      "../node_modules/libp2p/dist/src/content-routing/index.d.ts",
+      "../node_modules/libp2p/dist/src/dialer/dial-request.d.ts",
+      "../node_modules/libp2p/dist/src/dialer/index.d.ts",
+      "../node_modules/libp2p/dist/src/identify/consts.d.ts",
+      "../node_modules/libp2p/dist/src/identify/index.d.ts",
+      "../node_modules/libp2p/dist/src/identify/message.d.ts",
+      "../node_modules/libp2p/dist/src/index.d.ts",
+      "../node_modules/libp2p/dist/src/keychain/cms.d.ts",
+      "../node_modules/libp2p/dist/src/keychain/index.d.ts",
+      "../node_modules/libp2p/dist/src/metrics/index.d.ts",
+      "../node_modules/libp2p/dist/src/metrics/stats.d.ts",
+      "../node_modules/libp2p/dist/src/nat-manager.d.ts",
+      "../node_modules/libp2p/dist/src/peer-routing.d.ts",
+      "../node_modules/libp2p/dist/src/peer-store/address-book.d.ts",
+      "../node_modules/libp2p/dist/src/peer-store/book.d.ts",
+      "../node_modules/libp2p/dist/src/peer-store/index.d.ts",
+      "../node_modules/libp2p/dist/src/peer-store/key-book.d.ts",
+      "../node_modules/libp2p/dist/src/peer-store/metadata-book.d.ts",
+      "../node_modules/libp2p/dist/src/peer-store/persistent/index.d.ts",
+      "../node_modules/libp2p/dist/src/peer-store/proto-book.d.ts",
+      "../node_modules/libp2p/dist/src/ping/index.d.ts",
+      "../node_modules/libp2p/dist/src/pnet/errors.d.ts",
+      "../node_modules/libp2p/dist/src/pnet/index.d.ts",
+      "../node_modules/libp2p/dist/src/pnet/key-generator.d.ts",
+      "../node_modules/libp2p/dist/src/record/envelope/index.d.ts",
+      "../node_modules/libp2p/dist/src/registrar.d.ts",
+      "../node_modules/libp2p/dist/src/transport-manager.d.ts",
+      "../node_modules/libp2p/dist/src/upgrader.d.ts",
+      "../node_modules/multiaddr/dist/src/index.d.ts",
+      "../node_modules/multiaddr/dist/src/protocols-table.d.ts",
+      "../node_modules/multiaddr/dist/src/types.d.ts",
+      "../node_modules/multibase/src/types.d.ts",
+      "../node_modules/multicodec/dist/src/generated-types.d.ts",
+      "../node_modules/peer-id/src/index.d.ts",
+      "../node_modules/protobufjs/index.d.ts",
+      "../node_modules/protobufjs/minimal.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.core.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.generator.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.iterable.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.promise.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.proxy.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.reflect.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.symbol.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+      "../node_modules/typescript/lib/lib.es2016.array.include.d.ts",
+      "../node_modules/typescript/lib/lib.es2016.d.ts",
+      "../node_modules/typescript/lib/lib.es2017.d.ts",
+      "../node_modules/typescript/lib/lib.es2017.intl.d.ts",
+      "../node_modules/typescript/lib/lib.es2017.object.d.ts",
+      "../node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts",
+      "../node_modules/typescript/lib/lib.es2017.string.d.ts",
+      "../node_modules/typescript/lib/lib.es2017.typedarrays.d.ts",
+      "../node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts",
+      "../node_modules/typescript/lib/lib.es2018.asynciterable.d.ts",
+      "../node_modules/typescript/lib/lib.es2018.d.ts",
+      "../node_modules/typescript/lib/lib.es2018.intl.d.ts",
+      "../node_modules/typescript/lib/lib.es2018.promise.d.ts",
+      "../node_modules/typescript/lib/lib.es2018.regexp.d.ts",
+      "../node_modules/typescript/lib/lib.es2020.bigint.d.ts",
+      "../node_modules/typescript/lib/lib.es5.d.ts",
+      "../node_modules/typescript/lib/lib.esnext.intl.d.ts",
+      "../node_modules/uint8arrays/dist/to-string.d.ts",
+      "../src/index.ts",
+      "../src/lib/chat_message/index.ts",
+      "../src/lib/delay.ts",
+      "../src/lib/discover.ts",
+      "../src/lib/select_peer.ts",
+      "../src/lib/waku.ts",
+      "../src/lib/waku_light_push/index.ts",
+      "../src/lib/waku_light_push/push_rpc.ts",
+      "../src/lib/waku_message.ts",
+      "../src/lib/waku_relay/constants.ts",
+      "../src/lib/waku_relay/get_relay_peers.ts",
+      "../src/lib/waku_relay/index.ts",
+      "../src/lib/waku_relay/relay_heartbeat.ts",
+      "../src/lib/waku_store/history_rpc.ts",
+      "../src/lib/waku_store/index.ts",
+      "../src/proto/chat/v2/chat_message.ts",
+      "../src/proto/index.ts",
+      "../src/proto/waku/v2/light_push.ts",
+      "../src/proto/waku/v2/message.ts",
+      "../src/proto/waku/v2/store.ts",
+      "../src/types/types.d.ts"
+    ]
+  },
+  "version": "4.2.4"
+}
