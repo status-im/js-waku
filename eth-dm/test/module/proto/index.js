@@ -1,4 +1,0 @@
-export { ChatMessage } from './chat/v2/chat_message';
-export { WakuMessage } from './waku/v2/message';
-export { Index, PagingInfo, PagingInfo_Direction, ContentFilter, HistoryQuery, HistoryResponse, HistoryRPC, } from './waku/v2/store';
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaW5kZXguanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi8uLi9zcmMvcHJvdG8vaW5kZXgudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsT0FBTyxFQUFFLFdBQVcsRUFBRSxNQUFNLHdCQUF3QixDQUFDO0FBRXJELE9BQU8sRUFBRSxXQUFXLEVBQUUsTUFBTSxtQkFBbUIsQ0FBQztBQUVoRCxPQUFPLEVBQ0wsS0FBSyxFQUNMLFVBQVUsRUFDVixvQkFBb0IsRUFDcEIsYUFBYSxFQUNiLFlBQVksRUFDWixlQUFlLEVBQ2YsVUFBVSxHQUNYLE1BQU0saUJBQWlCLENBQUMifQ==
